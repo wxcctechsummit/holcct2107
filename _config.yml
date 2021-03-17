@@ -1,0 +1,15 @@
+title: Cisco Webex Contact Center Technical Enablement
+description: Lab guide repository for the 2021 Cisco Webex Contact Center Technical Partner Summit
+author:
+  name: Lab support email
+  email: "techsummit@email.carehybrid.com"
+remote_theme: jekyll/minima
+
+minima:
+  skin: dark
+  social_links:
+    twitter: Webex
+
+header_pages:
+  - LabLibrary.md
+
