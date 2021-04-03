@@ -46,4 +46,5 @@ The following video outlines the pre-requisites. These need to be complete befor
 
 > Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
+> Agent Desktop: **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
 > Mailinator: **[https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"}**
