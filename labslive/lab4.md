@@ -38,7 +38,7 @@ In this Lab, we will go through the tasks that are required to setup Skills Base
 
 # Lab
 
-## Video: Setting up a Simple Flow
+## Video: Lab 4 - Skills Based Routing
 
 > The following video outlines the process to create a simple flow. The video uses a generic example. You will use the naming convention of `EP_<ID>_wxcclab` where `<ID>` is your attendee ID provided. This is to keep a track of all the configuration created end to end.
 
