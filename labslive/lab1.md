@@ -2,6 +2,10 @@
 title: "Lab 1: Setup a Simple Flow and make a test call"
 ---
 
+<p align="center">
+  <img src="https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg">
+</p>
+
 In this Lab, we will go through the tasks that are required to setup a simple flow and make a test call into the Contact Center.
 
 # Table of Contents
@@ -34,14 +38,15 @@ In this Lab, we will go through the tasks that are required to setup a simple fl
 
 # Lab
 
-## Video: Setting up a Simple Flow
+## Video: Lab 1 - Setting up a Simple Flow
 
 > The following video outlines the process to create a simple flow. The video uses a generic example. You will use the naming convention of `EP_<ID>_wxcclab` where `<ID>` is your attendee ID provided. This is to keep a track of all the configuration created end to end.
 
 > The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/LRadvKFIPjA?rel=0" title="WxCC Lab #1 Part 1: Control Hub User Management Admin Task" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/EELO2flwwFc?rel=0" title="WxCC Lab 1: Setting up a Simple Flow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+> The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
 ---
 
 | **User Role** | **User email**      | **User Extension**                   |

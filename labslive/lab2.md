@@ -36,13 +36,14 @@ In this Lab, we will go through the tasks that are required to add additional fu
 
 # Lab
 
-## Video: Setting up a Simple Flow
+## Video: Lab 2 - Adding Menu and Queue Treatment
 
-> The following video outlines the process to create a simple flow. The video uses a generic example. You will use the naming convention of `EP_<ID>_wxcclab` where `<ID>` is your attendee ID provided. This is to keep a track of all the configuration created end to end.
+> The following video outlines the process of adding a Menu and Queue Treatment to the flow.
+> For configurations, use the naming convention `EP_<ID>_wxcclab` where `<ID>` is your attendee ID provided. This can help you keep a track of all the configuration created end to end.
+
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/cKGoMDHITDQ?rel=0" title="WxCC Lab 2: Menu and Queue Treatment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
-
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/LRadvKFIPjA?rel=0" title="WxCC Lab #1 Part 1: Control Hub User Management Admin Task" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

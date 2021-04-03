@@ -41,7 +41,9 @@ In this Lab, we will go through the tasks that are required to setup an outdial 
 
 > The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/LRadvKFIPjA?rel=0" title="WxCC Lab #1 Part 1: Control Hub User Management Admin Task" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/8IPR0WwFfCQ?rel=0" title="WxCC Lab 6: Outdial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+> The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
 
 ---
 
