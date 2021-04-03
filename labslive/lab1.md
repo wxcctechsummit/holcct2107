@@ -14,8 +14,9 @@ In this Lab, we will go through the tasks that are required to setup a simple fl
   * [Lab Objective](#lab-objective)
   * [Pre-Requisites](#pre-requisites)
   * [Quick Links](#quick-links)
-- [Video: Lab Walkthrough](#video-setting-up-a-simple-flow)
+- [Video: Lab Walkthrough](#Video-Lab-1---Setting-up-a-Simple-Flow)
 - [Detailed Steps](#detailed-steps)
+- [Lab Index - Quick Links](#index-quick-links)
 
 # Overview
 
@@ -108,9 +109,23 @@ Your \<ID\> is your `Attendee ID` provided in the email visible as the **"Attend
 - Login to the agent desktop into Team_wxcclab and go to a ready state.
 - Dial the number using your cell. You should hear the welcome prompt and get the call on the agent desktop.
 
+---
 ## Congratulations! You're done! 
 ## You are now ready to start the next Lab!
 ## [Lab 2: Adding Menu and Queue treatment to the call](lab2.md)
 
 
 > #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](index.md)**
+
+---
+
+## Index: Quick Links
+
+* [Important: Pre-Requisites](labslive/prereq.md)
+* [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md)
+* [Lab 2: Adding Menu and Queue treatment to the call](labslive/lab2.md)
+* [Lab 3: Advanced HTTP Request](labslive/lab3.md)
+* [Lab 4: Skills Based Routing (SBR)](labslive/lab4.md)
+### BONUS LABS
+* [BONUS - Lab 5 : Intelligent IVR using CCAI](labslive/lab5.md)
+* [BONUS - Lab 6 : Configuring Out-dial](labslive/lab6.md)

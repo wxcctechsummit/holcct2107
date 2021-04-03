@@ -136,9 +136,23 @@ name of customer with account number	$.[?(@.account == "70579265")].name
 - Ensure you’re able to recieve the variables on the Agent Desktop.
 
 
+---
+
 ## Congratulations! You're done! 
 ## You are now ready to start the next Lab!
 ## [Lab 4: Skills Based Routing](lab4.md)
 
 
 > #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](index.md)**
+---
+
+## Index: Quick Links
+
+* [Important: Pre-Requisites](labslive/prereq.md)
+* [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md)
+* [Lab 2: Adding Menu and Queue treatment to the call](labslive/lab2.md)
+* [Lab 3: Advanced HTTP Request](labslive/lab3.md)
+* [Lab 4: Skills Based Routing (SBR)](labslive/lab4.md)
+### BONUS LABS
+* [BONUS - Lab 5 : Intelligent IVR using CCAI](labslive/lab5.md)
+* [BONUS - Lab 6 : Configuring Out-dial](labslive/lab6.md)

@@ -97,9 +97,23 @@ Your \<ID\> is your `Attendee ID` provided in the email visible as the **"Attend
 - Verify the new flow end to end by first, logging into the Agent Desktop and going into a ready state.
 - Ensure you’re able to recieve the variables on the Agent Desktop.
 
+---
+
 ## Congratulations! You're done! 
 ## You are done with all the mandatory sections! Explore the bonus lab below!
 ## [BONUS -> Lab 5: Intelligent IVR using Contact Center AI](lab5.md)
 
 
 > #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](index.md)**
+---
+
+## Index: Quick Links
+
+* [Important: Pre-Requisites](labslive/prereq.md)
+* [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md)
+* [Lab 2: Adding Menu and Queue treatment to the call](labslive/lab2.md)
+* [Lab 3: Advanced HTTP Request](labslive/lab3.md)
+* [Lab 4: Skills Based Routing (SBR)](labslive/lab4.md)
+### BONUS LABS
+* [BONUS - Lab 5 : Intelligent IVR using CCAI](labslive/lab5.md)
+* [BONUS - Lab 6 : Configuring Out-dial](labslive/lab6.md)

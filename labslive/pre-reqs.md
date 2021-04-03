@@ -48,3 +48,21 @@ The following video outlines the pre-requisites. These need to be complete befor
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
 > Agent Desktop: **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
 > Mailinator: **[https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"}**
+
+---
+## You are now ready to Begin the Lab!
+## [Lab 1: Setup A Simple Flow](lab1.md)
+
+
+---
+
+## Index: Quick Links
+
+* [Important: Pre-Requisites](labslive/prereq.md)
+* [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md)
+* [Lab 2: Adding Menu and Queue treatment to the call](labslive/lab2.md)
+* [Lab 3: Advanced HTTP Request](labslive/lab3.md)
+* [Lab 4: Skills Based Routing (SBR)](labslive/lab4.md)
+### BONUS LABS
+* [BONUS - Lab 5 : Intelligent IVR using CCAI](labslive/lab5.md)
+* [BONUS - Lab 6 : Configuring Out-dial](labslive/lab6.md)

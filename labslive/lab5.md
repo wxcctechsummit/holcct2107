@@ -120,8 +120,23 @@ Note: The DialogFlow agent’s credentials are created on the DialogFlow API of 
 - Have the agent go ready after you said “I need an agent”.
 - The Agent should get the call, and be able to view the transcript on the agent desktop.
 
+---
+
 ## Congratulations! You're All done with the Bonus Lab! 
 ## You are now ready to start the next Bonus Lab!
 ## [Lab 6: BONUS --> Outdial Lab](lab6.md)
 
 ## We hope you enjoyed the labs!
+
+---
+
+## Index: Quick Links
+
+* [Important: Pre-Requisites](labslive/prereq.md)
+* [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md)
+* [Lab 2: Adding Menu and Queue treatment to the call](labslive/lab2.md)
+* [Lab 3: Advanced HTTP Request](labslive/lab3.md)
+* [Lab 4: Skills Based Routing (SBR)](labslive/lab4.md)
+### BONUS LABS
+* [BONUS - Lab 5 : Intelligent IVR using CCAI](labslive/lab5.md)
+* [BONUS - Lab 6 : Configuring Out-dial](labslive/lab6.md)
