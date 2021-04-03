@@ -1,8 +1,8 @@
-title: Cisco Webex Contact Center Technical Enablement
-description: Lab guide repository for the 2021 Cisco Webex Contact Center Technical Partner Summit
+title: Cisco Live! Cisco Webex Contact Center
+description: Cisco Live! 2021 - Webex Contact Center Flow Designer
 author:
-  name: Lab support email
-  email: "techsummit@email.carehybrid.com"
+  name: Lab support
+  email: "ciscolive@email.carehybrid.com"
 remote_theme: jekyll/minima
 
 minima:
@@ -11,5 +11,5 @@ minima:
     twitter: Webex
 
 header_pages:
-  - LabLibrary.md
+  - index.md
 
