@@ -94,13 +94,13 @@ Your \<ID\> is your `Attendee ID` provided in the email visible as the **"Attend
 
 ## Index: Quick Links
 
-* [Important: Pre-Requisites](prereq.md)
-* [Lab 1: Setup a Simple Flow and make a test call](lab1.md)
-* [Lab 2: Adding Menu and Queue treatment to the call](lab2.md)
-* [Lab 3: Advanced HTTP Request](lab3.md)
-* [Lab 4: Skills Based Routing (SBR)](lab4.md)
+* [Important: Pre-Requisites](prereq.md){:target="_blank"}
+* [Lab 1: Setup a Simple Flow and make a test call](lab1.md){:target="_blank"}
+* [Lab 2: Adding Menu and Queue treatment to the call](lab2.md){:target="_blank"}
+* [Lab 3: Advanced HTTP Request](lab3.md){:target="_blank"}
+* [Lab 4: Skills Based Routing (SBR)](lab4.md){:target="_blank"}
 
 ### BONUS LABS
 
-* [BONUS - Lab 5 : Intelligent IVR using CCAI](lab5.md)
+* [BONUS - Lab 5 : Intelligent IVR using CCAI](lab5.md){:target="_blank"}
 * [BONUS - Lab 6 : Configuring Out-dial](lab6.md)
