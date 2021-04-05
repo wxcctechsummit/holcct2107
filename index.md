@@ -30,6 +30,7 @@ We have chosen specific areas of focus for advanced scripting topics. We have HT
 
 | Time | Session | Link |
 | ---- | ------- | ----------------- |
+| 3:30 PM CST | Lab Pre-Requisites |  [Pre-requisite Configuration](labslive/prereq.md) |
 | 4:00 PM CST | Making a Simple Test Call |  [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md) |
 | 4:30 PM CST | Menu and Queue Treatment | [Lab 2: Adding Menu and Queue treatment to the call](labslive/lab2.md) |
 | 5:00 PM CST | Advanced HTTP Request | [Lab 3: Advanced HTTP Request](labslive/lab3.md)|
