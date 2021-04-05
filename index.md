@@ -28,6 +28,8 @@ We have chosen specific areas of focus for advanced scripting topics. We have HT
 
 ### There are 4 Scheduled Labs and 2 Bonus Labs!
 
+> The pre-requisites lab shows you the minimum configuration required to have the Webex Contact Center configured end to end.
+
 | Time | Session | Link |
 | ---- | ------- | ----------------- |
 | 3:30 PM CST | Lab Pre-Requisites |  [Pre-requisite Configuration](labslive/prereq.md) |

@@ -19,16 +19,13 @@ The following video outlines the pre-requisites. These need to be complete befor
 ## Summary
 
 1. Login to Control Hub > Users.
-
 -	Ensure the agents have the contact center license selected and are properly configured as Contact center enabled on Webex Contact center.
 - Ensure that they have activated the Email and are “Active” on Control Hub. 
 
 2. Synchronize users to get any newly activated users.
-
 - Got to Contact Center > Settings > Synchronize Users
 
 3. Launch Portal to ensure all the users (admins, agents, supervisors) are contact center configured for testing.
-
 - Create a Site : Site_wxcclab, Team_wxcclab
 - Activate the agents to be Contact Center Enabled.
 - Associate the Agents to the Site, Team, default Multimedia Profile - Default_Telephony_Profile.
