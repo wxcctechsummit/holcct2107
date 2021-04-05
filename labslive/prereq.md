@@ -63,6 +63,8 @@ The following video outlines the pre-requisites. These need to be complete befor
 * [Lab 2: Adding Menu and Queue treatment to the call](lab2.md)
 * [Lab 3: Advanced HTTP Request](lab3.md)
 * [Lab 4: Skills Based Routing (SBR)](lab4.md)
+
 ### BONUS LABS
+
 * [BONUS - Lab 5 : Intelligent IVR using CCAI](lab5.md)
 * [BONUS - Lab 6 : Configuring Out-dial](lab6.md)

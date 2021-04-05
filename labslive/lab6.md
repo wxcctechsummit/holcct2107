@@ -34,6 +34,7 @@ In this Lab, we will go through the tasks that are required to setup an outdial 
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
 > Agent Desktop: **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
 > Mailinator: **[https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"}**
+
 # Lab
 
 ## Video: BONUS Lab 6 - Outdial Configuration
@@ -98,6 +99,8 @@ Your \<ID\> is your `Attendee ID` provided in the email visible as the **"Attend
 * [Lab 2: Adding Menu and Queue treatment to the call](lab2.md)
 * [Lab 3: Advanced HTTP Request](lab3.md)
 * [Lab 4: Skills Based Routing (SBR)](lab4.md)
+
 ### BONUS LABS
+
 * [BONUS - Lab 5 : Intelligent IVR using CCAI](lab5.md)
 * [BONUS - Lab 6 : Configuring Out-dial](lab6.md)
