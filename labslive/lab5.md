@@ -132,11 +132,11 @@ Note: The DialogFlow agent’s credentials are created on the DialogFlow API of 
 
 ## Index: Quick Links
 
-* [Important: Pre-Requisites](labslive/prereq.md)
-* [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md)
-* [Lab 2: Adding Menu and Queue treatment to the call](labslive/lab2.md)
-* [Lab 3: Advanced HTTP Request](labslive/lab3.md)
-* [Lab 4: Skills Based Routing (SBR)](labslive/lab4.md)
+* [Important: Pre-Requisites](prereq.md)
+* [Lab 1: Setup a Simple Flow and make a test call](lab1.md)
+* [Lab 2: Adding Menu and Queue treatment to the call](lab2.md)
+* [Lab 3: Advanced HTTP Request](lab3.md)
+* [Lab 4: Skills Based Routing (SBR)](lab4.md)
 ### BONUS LABS
-* [BONUS - Lab 5 : Intelligent IVR using CCAI](labslive/lab5.md)
-* [BONUS - Lab 6 : Configuring Out-dial](labslive/lab6.md)
+* [BONUS - Lab 5 : Intelligent IVR using CCAI](lab5.md)
+* [BONUS - Lab 6 : Configuring Out-dial](lab6.md)
