@@ -15,6 +15,7 @@ The following video outlines the pre-requisites. These need to be complete befor
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/PYI9ug4PH0o?rel=0" title="WxCC Pre-reqs: Pre-requisites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
+> Here are the **video timestamps if you would like to skip to the section directly**
 
 > 0:20 - Check User License
 
@@ -25,6 +26,10 @@ The following video outlines the pre-requisites. These need to be complete befor
 > 1:35 - Default PSTN Option for all Locations
 
 > 1:52 - Hit Synchronize Users
+
+> 2:28 - Configure Admin User for Agent Login
+
+> 2:52 - Verify Agent Login
 
 ## Summary
 
