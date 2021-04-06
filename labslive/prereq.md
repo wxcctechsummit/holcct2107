@@ -16,27 +16,65 @@ The following video outlines the pre-requisites. These need to be complete befor
 
 > The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
 
+> 0:20 - Check User License
+
+> 0:38 - Check the Directory Number
+
+> 1:21 - Check Main Number and PSTN Connection
+
+> 1:35 - Default PSTN Option for all Locations
+
+> 1:52 - Hit Synchronize Users
+
 ## Summary
+
+> Check your user credentials in the Lab Email you just received. Through the course of this lab you will use the user starting with admin1pod__@__
+
+**Check Licenses**
+
 
 1. Login to Control Hub > Users.
 -	Ensure the agents have the contact center license selected and are properly configured as Contact center enabled on Webex Contact center.
 - Ensure that they have activated the Email and are “Active” on Control Hub. 
 
-2. Synchronize users to get any newly activated users.
+**Check Webex Calling Settings**
+
+
+2. Verify Webex Calling Settings
+- Check that a "Main" number is assigned to Webex Calling.
+- Check that the Calling Location is correctly set to "Intelepeer"
+
+
+**Synchronize Users**
+
+3. Synchronize users to get any newly activated users.
 - Got to Contact Center > Settings > Synchronize Users
 
-3. Launch Portal to ensure all the users (admins, agents, supervisors) are contact center configured for testing.
-- Create a Site : Site_wxcclab, Team_wxcclab
-- Activate the agents to be Contact Center Enabled.
-- Associate the Agents to the Site, Team, default Multimedia Profile - Default_Telephony_Profile.
+**Check Admin settings, Agent Settings, Site, Team Configuration**
+
+4. Launch Portal to ensure the admin user admin1pod__@__ is Contact center configured for testing.
+- A Site has been created for the Admin: `Cisco_Live`, `Team_CiscoLive`
+- Ensure the Admin is Contact Center Enabled.
+- Associate the User to the Site, Team, default Multimedia Profile - `Default_Telephony_Profile`.
 - Verify by Launching the Agent Desktop and logging in.
+
+Desktop URL: **https://desktop.wxcc-us1.cisco.com/**
+
+> **Creating additional Agents:** You may create additional aliases using Mailinator (3rd party email alias generator) https://www.mailinator.com/
+
+> Login to mailinator, create an inbox : username@mailinator.com will then be able to receive emails.
+
+> Feel free to the user to Control Hub to add more users!
+
+> Remember to Synchronize Users on Control Hub when adding new users.
+
+5. Verify Webex Calling Installation
 
 > **Participants can download and install the WebEx Calling App for Agents, Admins or Supervisors and make on-net calls.**
 
 | **S.No** | **Contents**      | **Extension-DN Allotted**                   |
 | ----------- | ----------------- | -------------------------------- |
-| Agent        | agent1_\<ID\>@mailinator.com   | 1000 |
-| Supervisor         | supervisor1_\<ID\>@mailinator.com  | 2000 |
+| Admin        | admin1_\<POD-ID\>@email.carehybrid.com   | 3001 |
 
 
 ### Quick Links
