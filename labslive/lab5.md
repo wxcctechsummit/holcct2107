@@ -123,7 +123,7 @@ Note: The DialogFlow agent’s credentials are created on the DialogFlow API of 
 - The Agent should get the call, and be able to view the transcript on the agent desktop.
 
 
-## Video: BONUS Content - How the CiscoLive Test Bot is Configured on CCAI
+## Video: BONUS Content - How the Bot is Configured on CCAI (DialogFlow)
 
 > The following video outlines the process on how to create the CCAI Bot on Google dialog flow. This is purely for informational purposes only since a Cisco Billing account is used in the lab.
 
