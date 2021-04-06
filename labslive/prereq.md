@@ -77,7 +77,7 @@ Desktop URL: **https://desktop.wxcc-us1.cisco.com/**
 
 > **Participants can download and install the WebEx Calling App for Agents, Admins or Supervisors and make on-net calls.**
 
-| **S.No** | **Contents**      | **Extension-DN Allotted**                   |
+| **User Role** | **Contents**      | **Extension-DN Allotted**                   |
 | ----------- | ----------------- | -------------------------------- |
 | Admin        | admin1_\<POD-ID\>@email.carehybrid.com   | 3001 |
 

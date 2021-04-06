@@ -49,10 +49,9 @@ In this Lab, we will go through the tasks that are required to setup an outdial 
 
 ---
 
-| **User Role** | **User email**      | **User Extension**                   |
+| **User Role** | **Contents**      | **Extension-DN Allotted**                   |
 | ----------- | ----------------- | -------------------------------- |
-| Agent        | agent1_\<ID\>@mailinator.com   | 1000 |
-| Supervisor         | supervisor1_\<ID\>@mailinator.com  | 2000 |
+| Admin        | admin1_\<POD-ID\>@email.carehybrid.com   | 3001 |
 
 **NOTE:**
 
