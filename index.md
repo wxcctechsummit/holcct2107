@@ -18,36 +18,38 @@ The lab will also contain multiple deep dive and advanced exercises using Flow D
 
 **IVR Prompts**
 
-We will use dynamic TTS (Text-to-speech) prompts throughout the entire lab. We have provided a Cisco TTS account that can be used for the duration of the lab. The TTS account will be revoked after the lab.
+We will use a static prompts that have already been uploaded for you some exercises. If you would like to use dynamic TTS (Text-to-speech) prompts, you can refer to the Bonus section - Lab 5 - or use the preinstalled TTS conector. This is a Cisco TTS account that can be used for the duration of the lab. This TTS account will be revoked after the lab.
 
 **Lookups, Advanced Queue Treatment, Screen-pops, CCAI**
 
-We have chosen specific areas of focus for advanced scripting topics. We have HTTP Request lookups, advanced queue treatment, screen pops, CCAI, and more. For additional queries or use cases, please feel free to reach out to us (proctors).
+We have chosen specific areas of focus for advanced scripting topics. We have HTTP Request lookups, advanced queue treatment, screen pops, CCAI, and more. For additional queries or use cases that you may have received for business use-case, please feel free to reach out to us (proctors) to consult.
 
 ## Lab Schedule
 
 ### There are 4 Scheduled Labs and 2 Bonus Labs!
 
-> The pre-requisites lab shows you the minimum configuration required to have the Webex Contact Center configured end to end.
+> The pre-requisites lab shows you the minimum configuration required to have the Webex Contact Center configured to login an Agent and get ready to build out flows.
 
 | Time | Session | Link |
 | ---- | ------- | ----------------- |
 | 3:30 PM CST | Lab Pre-Requisites |  [Pre-requisite Configuration](labslive/prereq.md) |
 | 4:00 PM CST | Making a Simple Test Call |  [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md) |
-| 4:30 PM CST | Menu and Queue Treatment | [Lab 2: Adding Menu and Queue treatment to the call](labslive/lab2.md) |
-| 5:00 PM CST | Advanced HTTP Request | [Lab 3: Advanced HTTP Request](labslive/lab3.md)|
-| 6:00 PM CST | Skills Based Routing | [Lab 4: Skills Based Routing (SBR)](labslive/lab4.md) |
-| OPTIONAL | BONUS - Intellgent IVR using Contact Center AI |  [BONUS Lab 5: Intelligent IVR using CCAI](labslive/lab5.md) |
-| OPTIONAL | BONUS - Configuring Outdial | [BONUS Lab 6: Configuring Out-dial](labslive/lab6.md) |
+| 4:30 PM CST | Menu and Queue Treatment | [Lab 2: Add Menu and Queue treatment to the call](labslive/lab2.md) |
+| 5:00 PM CST | Advanced HTTP Request | [Lab 3: Setup an advanced HTTP Request](labslive/lab3.md)|
+| 6:00 PM CST | Skills Based Routing | [Lab 4: Setup Skills Based Routing (SBR)](labslive/lab4.md) |
+| OPTIONAL | BONUS - Intellgent IVR using Contact Center AI |  [BONUS Lab 5: Setup Intelligent IVR using CCAI](labslive/lab5.md) |
+| OPTIONAL | BONUS - Configuring Outdial | [BONUS Lab 6: Configure Out-dial](labslive/lab6.md) |
 
 
 ## Lab Documents - Quick Links
 
-* [Important: Pre-Requisites](labslive/prereq.md)
-* [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md)
-* [Lab 2: Adding Menu and Queue treatment to the call](labslive/lab2.md)
-* [Lab 3: Advanced HTTP Request](labslive/lab3.md)
-* [Lab 4: Skills Based Routing (SBR)](labslive/lab4.md)
+* [Important: Pre-Requisites](labslive/prereq.md){:target="_blank"}
+* [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md){:target="_blank"}
+* [Lab 2: Add Menu and Queue treatment to the call](labslive/lab2.md){:target="_blank"}
+* [Lab 3: Setup an advanced HTTP Request](labslive/lab3.md){:target="_blank"}
+* [Lab 4: Setup Skills Based Routing (SBR)](labslive/lab4.md){:target="_blank"}
+
 ### BONUS LABS
-* [BONUS - Lab 5 : Intelligent IVR using CCAI](labslive/lab5.md)
-* [BONUS - Lab 6 : Configuring Out-dial](labslive/lab6.md)
+
+* [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](labslive/lab5.md){:target="_blank"}
+* [BONUS - Lab 6 : Configure Out-dial](labslive/lab6.md){:target="_blank"}

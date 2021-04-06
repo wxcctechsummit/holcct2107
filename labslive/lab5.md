@@ -4,6 +4,7 @@ title: "Lab 5: Intelligent IVR using CCAI"
 <p align="center">
   <img src="https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg">
 </p>
+
 In this Lab, we will go through the tasks that are required to setup a simple flow and make a test call into the Contact Center.
 
 # Table of Contents
@@ -45,6 +46,7 @@ In this Lab, we will go through the tasks that are required to setup a simple fl
 > The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/j78p-gxeTaE?rel=0" title="WxCC Lab 5 : CCAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 > The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
 ---
@@ -120,6 +122,15 @@ Note: The DialogFlow agent’s credentials are created on the DialogFlow API of 
 - Have the agent go ready after you said “I need an agent”.
 - The Agent should get the call, and be able to view the transcript on the agent desktop.
 
+
+## Video: BONUS Content - How the CiscoLive Test Bot is Configured on CCAI
+
+> The following video outlines the process on how to create the CCAI Bot on Google dialog flow. This is purely for informational purposes only since a Cisco Billing account is used in the lab.
+
+> **Note: You will not need to configure anything as a part of this section.**
+
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/9R2MMQhmUa8?rel=0" title="WxCC Lab 5 : CCAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ---
 
 ## Congratulations! You're All done with the Bonus Lab! 
@@ -132,13 +143,13 @@ Note: The DialogFlow agent’s credentials are created on the DialogFlow API of 
 
 ## Index: Quick Links
 
-* [Important: Pre-Requisites](prereq.md){:target="_blank"}
-* [Lab 1: Setup a Simple Flow and make a test call](lab1.md){:target="_blank"}
-* [Lab 2: Adding Menu and Queue treatment to the call](lab2.md){:target="_blank"}
-* [Lab 3: Advanced HTTP Request](lab3.md){:target="_blank"}
-* [Lab 4: Skills Based Routing (SBR)](lab4.md){:target="_blank"}
+* [Important: Pre-Requisites](labslive/prereq.md){:target="_blank"}
+* [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md){:target="_blank"}
+* [Lab 2: Add Menu and Queue treatment to the call](labslive/lab2.md){:target="_blank"}
+* [Lab 3: Setup an advanced HTTP Request](labslive/lab3.md){:target="_blank"}
+* [Lab 4: Setup Skills Based Routing (SBR)](labslive/lab4.md){:target="_blank"}
 
 ### BONUS LABS
 
-* [BONUS - Lab 5 : Intelligent IVR using CCAI](lab5.md)
-* [BONUS - Lab 6 : Configuring Out-dial](lab6.md){:target="_blank"}
+* [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](labslive/lab5.md)
+* [BONUS - Lab 6 : Configure Out-dial](labslive/lab6.md){:target="_blank"}

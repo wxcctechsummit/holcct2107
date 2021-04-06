@@ -44,16 +44,15 @@ In this Lab, we will go through the tasks that are required to add additional fu
 > The following video outlines the process of adding a Menu and Queue Treatment to the flow.
 > For configurations, use the naming convention `EP_<ID>_wxcclab` where `<ID>` is your attendee ID provided. This can help you keep a track of all the configuration created end to end.
 
-<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/cKGoMDHITDQ?rel=0" title="WxCC Lab 2: Menu and Queue Treatment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/WnaVkrzcbWs?rel=0" title="WxCC Lab 2: Menu and Queue Treatment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
 
 ---
 
-| **User Role** | **User email**      | **User Extension**                   |
+| **User Role** | **Contents**      | **Extension-DN Allotted**                   |
 | ----------- | ----------------- | -------------------------------- |
-| Agent        | agent1_\<ID\>@mailinator.com   | 1000 |
-| Supervisor         | supervisor1_\<ID\>@mailinator.com  | 2000 |
+| Admin        | admin1_\<POD-ID\>@email.carehybrid.com   | 3001 |
 
 **NOTE:**
 
@@ -104,11 +103,13 @@ Your \<ID\> is your `Attendee ID` provided in the email visible as the **"Attend
 
 ## Index: Quick Links
 
-* [Important: Pre-Requisites](prereq.md){:target="_blank"}
-* [Lab 1: Setup a Simple Flow and make a test call](lab1.md){:target="_blank"}
-* [Lab 2: Adding Menu and Queue treatment to the call](lab2.md)
-* [Lab 3: Advanced HTTP Request](lab3.md){:target="_blank"}
-* [Lab 4: Skills Based Routing (SBR)](lab4.md){:target="_blank"}
+* [Important: Pre-Requisites](labslive/prereq.md){:target="_blank"}
+* [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md){:target="_blank"}
+* [Lab 2: Add Menu and Queue treatment to the call](labslive/lab2.md){:target="_blank"}
+* [Lab 3: Setup an advanced HTTP Request](labslive/lab3.md){:target="_blank"}
+* [Lab 4: Setup Skills Based Routing (SBR)](labslive/lab4.md){:target="_blank"}
+
 ### BONUS LABS
-* [BONUS - Lab 5 : Intelligent IVR using CCAI](lab5.md){:target="_blank"}
-* [BONUS - Lab 6 : Configuring Out-dial](lab6.md){:target="_blank"}
+
+* [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](labslive/lab5.md){:target="_blank"}
+* [BONUS - Lab 6 : Configure Out-dial](labslive/lab6.md){:target="_blank"}
