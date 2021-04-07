@@ -122,7 +122,6 @@ Add Team  > Team[Team_CiscoLive]
 |Time Zone|	Default|
 
 
-
 ### 5. Change the previous flow with Skill based routing queue
 
 - Open the Flow created before and click on Queue Contact node (Team1) and change the queue from Queue_Dummy to Queue_SBR
@@ -143,7 +142,7 @@ Skill Requirements
 
 ### 6. Additional String Manipulation ! - CUSTOMER EMAIL CHECK
 
-- Create Custom String variable, Cust_Premium_check and Cust_Premium_check .
+- Create Custom String variable, `Cust_Premium_check` and `Cust_Premium_check`.
 - Drag and Drop Set Variable, Condition node and another Set Variable as explained in Video
 
 - In the First set variable parse for email, use `'''{{ Customer_Email | split("@") | last }}'''` to parse the domain name of email
@@ -164,8 +163,8 @@ Skill Requirements
 ### 7. Make a call and test the flow
 
 - Verify the new flow end to end by first, logging into the Agent Desktop and going into a ready state.
-- Call the Dial number > Enter 5 digit pin non premium agent (36238) >  On - Main Menu press 1 >  Call queued for 15 seconds and gets connected to agent
-- Call the Dial number > Enter 5 digit pin premium agent (93752) >  On Main Menu press 1 >  Call gets connected to agent immediately
+- Call the Dial number > Enter 5 digit pin non premium agent (`36238`) >  On - Main Menu press 1 >  Call queued for 15 seconds and gets connected to agent
+- Call the Dial number > Enter 5 digit pin premium agent (`93752`) >  On Main Menu press 1 >  Call gets connected to agent immediately
 
 ---
 
