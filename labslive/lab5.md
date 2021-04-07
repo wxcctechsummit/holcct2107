@@ -68,7 +68,7 @@ In this Lab, we will go through the tasks that are required to setup **Contact C
 
 > 6:29 - 8:20 - Plug in the CCAI Bot
 
-**Task 2 - TTS Connector and EQT & PIQ**
+**Task 2 - TTS Connector, EWT & PIQ**
 
 > 08:00 - 09:20 - Verify TTS connector
 
