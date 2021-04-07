@@ -166,7 +166,7 @@ customerPhone = $.[0].phone
 ## You are now ready to start the next Lab!
 ## [Lab 4: Skills Based Routing](lab4.md){:target="_blank"}
 
-
+---
 > #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](index.md)**
 ---
 

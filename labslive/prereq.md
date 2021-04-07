@@ -114,7 +114,8 @@ Desktop URL: **https://desktop.wxcc-us1.cisco.com/**
 ## You are now ready to Begin the Lab!
 ## [Lab 1: Setup A Simple Flow](lab1.md)
 
-
+---
+> #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](index.md)**
 ---
 
 ## Index: Quick Links
