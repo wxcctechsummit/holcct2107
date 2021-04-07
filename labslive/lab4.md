@@ -94,7 +94,7 @@ Your `<POD>` is your `POD ID` allocated.
 ### 3. Add skill profile to User/ Agent
 
 - Open portal > Users
-- Edit user  > under Skill Profile select the skill profile created in step 2 ((Cisco_Live_SP2))
+- Edit user  > under Skill Profile select the skill profile created in step 2 ((Cisco_Live_SP2)
 
 ### 4.Create new Queue with Skill based routing and Add team
 
@@ -104,16 +104,17 @@ Your `<POD>` is your `POD ID` allocated.
 - Queue Routing Type  > Skill Based  > Best Available Agent
 Add Team  > Team[Team_CiscoLive]
 
-Configuration field	Value
-Name	Queue_SBR
-Channel Type	Telephony
-Contact Routing Settings	 
-Queue Routing Type	Skills Based
-Agent Selection	Best Available Agent
-Call Distribution	<Add team>
-Service Level Threshold	20
-Maximum Time in Queue	7200
-Time Zone	Default
+|Configuration field|	Value|
+|----|---|
+|Name	|Queue_SBR|
+|Channel Type	|Telephony|
+|*Contact Routing Settings*| 
+|Queue Routing Type	|Skills Based|
+|Agent Selection	|Best Available Agent|
+|Call Distribution|	`<Add team>`|
+|Service Level Threshold|	20|
+|Maximum Time in Queue|	7200|
+|Time Zone|	Default|
 
 
 
@@ -137,7 +138,7 @@ Agent_Proficiency >= 4
 ### 6. Make a call and test the flow
 
 - Verify the new flow end to end by first, logging into the Agent Desktop and going into a ready state.
-- Call the Dial number > Enter 5 digit pin non premium agent (36238) >  On - - Main Menu press 1 >  Call queued for 15 seconds and gets connected to agent
+- Call the Dial number > Enter 5 digit pin non premium agent (36238) >  On - Main Menu press 1 >  Call queued for 15 seconds and gets connected to agent
 - Call the Dial number > Enter 5 digit pin premium agent (93752) >  On Main Menu press 1 >  Call gets connected to agent immediately
 
 ---
