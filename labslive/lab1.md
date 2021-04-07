@@ -107,9 +107,13 @@ Your `<POD>` is your `POD ID` allocated.
 
 ### 3. Create an inbound Voice Entry Point and Voice Queue
 
-- Login to Portal and create an inbound voice entry point and voice queue. (Provisioning > Entry Point / Queue). 
+- Login to Portal and create an inbound voice entry point and voice queue. (Provisioning > Entry Point / Queue).
 
-Here is the configuration naming
+- Create the Entry Point named `EntryPoint_CL_Lab_<ID>` where `<ID>` is your attendee ID provided.
+
+- Create the Queue named `Queue_LAA_<ID>` where `<ID>` is your attendee ID provided.
+
+**Here are the Queue Settings**
 
 |Configuration |field Value|
 |-------------|----------|
@@ -122,6 +126,8 @@ Here is the configuration naming
 |Service Level Threshold |20|
 |Maximum Time in Queue |7200|
 |Time Zone |Default|
+
+*`<ID>` is your attendee ID provided.
 
 ---
 
