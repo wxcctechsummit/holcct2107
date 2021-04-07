@@ -94,7 +94,7 @@ Your `<POD>` is your `POD ID` allocated.
 
 > The request we will construct is : 
 
-> **HTTPS GET** -> https://5f97898842706e0016957443.mockapi.io/crm/api/customers?pin=18716
+ **HTTPS GET -> https://5f97898842706e0016957443.mockapi.io/crm/api/customers?pin=18716**
 
 - Use the variable from the CollectDigits1.EnteredPIN variable to inject it in the pin lookup.
 - We will construct it as follows
