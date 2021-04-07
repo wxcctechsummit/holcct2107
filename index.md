@@ -42,15 +42,19 @@ CCAI Connectors (TTS and CCAI) can be found [here](https://cisco.box.com/s/oakd7
 | OPTIONAL | BONUS - Configuring Outdial | [BONUS Lab 6: Configure Out-dial](labslive/lab6.md) |
 
 
+---
+## You are now ready to Begin the Lab!
+## [LAB 0: Please Begin the Lab Pre-requisites](labslive/prereq.md)
+
 ## Lab Documents - Quick Links
 
-* [Important: Pre-Requisites](prereq.md){:target="_blank"}
-* [Lab 1: Setup a Simple Flow and make a test call](lab1.md){:target="_blank"}
-* [Lab 2: Add Menu and Queue treatment to the call](lab2.md){:target="_blank"}
-* [Lab 3: Setup an advanced HTTP Request](lab3.md){:target="_blank"}
-* [Lab 4: Setup Skills Based Routing (SBR)](lab4.md){:target="_blank"}
+* [Important: Pre-Requisites](labslive/prereq.md){:target="_blank"}
+* [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md){:target="_blank"}
+* [Lab 2: Add Menu and Queue treatment to the call](labslive/lab2.md){:target="_blank"}
+* [Lab 3: Setup an advanced HTTP Request](labslive/lab3.md){:target="_blank"}
+* [Lab 4: Setup Skills Based Routing (SBR)](labslive/lab4.md){:target="_blank"}
 
 ### BONUS LABS
 
-* [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](lab5.md){:target="_blank"}
-* [BONUS - Lab 6 : Configure Out-dial](lab6.md){:target="_blank"}
+* [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](labslive/lab5.md){:target="_blank"}
+* [BONUS - Lab 6 : Configure Out-dial](labslive/lab6.md){:target="_blank"}
