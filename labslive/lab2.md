@@ -91,16 +91,18 @@ Your `<POD>` is your `POD ID` allocated.
 
 - Open the Portal > Provisioning > Queue.
 
-|Configuration field|	Value|
+
+|Configuration field|Value|
 |------|------|
 |Name	|Queue_Dummy_`<ID> `|
-|Channel Type	Telephony
-| *----Contact Routing Settings---*	 |
+|Channel Type|Telephony|
+| *----Contact Routing Settings---*	 | |
 |Queue Routing Type|	Longest Available Agent|
 |Call Distribution|	`<Add team>`|
 |Service Level Threshold |	20|
 |Maximum Time in Queue	|7200|
 |Time Zone	|Default|
+
 ---
 
 
