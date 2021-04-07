@@ -158,7 +158,25 @@ Your `<POD>` is your `POD ID` allocated.
 - Configure the Open 24x7 routing strategy time of day on the Entry Point Routing strategy by selecting it on the Routing Strategies >`EntryPoint_CL_Lab_<ID>`.
 - Map the flow flow_wxcclab you just created in there.
 
-### 7. Make a test call
+### 7. OPTIONAL Download and Login in the Webex Calling app for mobile 
+
+> **Note:** If you are outside the US, you need two Webex Calling app for placing a call to Entry Point and accepting on the agent side. In this lab, we will use the Webex Calling app for mobile for **supervisor** account.
+
+- Open the Application Manager (**Play Store** or **App Store**) on your mobile phone.
+
+- Search for **_webex calling_**.
+
+- **Download** and **Open** the app. Click `Get Started`.
+
+- Login in the app by selecting **_Region_** as **North America**.
+
+- Login using **_Email address_** `supervisor_<ID>@mailinator.com` and same **_Password_** as the admin account.
+
+> **Note:** Make sure that you give access to the phone's microphone for the calling app.
+
+![WxCallingAndroid](../images/wxcallingandroid.png)
+
+### 8. Make a test call
 
 - Login to the agent desktop into `Team_CiscoLive` and go to a ready state.
 
