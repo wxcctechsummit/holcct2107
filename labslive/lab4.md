@@ -86,7 +86,9 @@ Your `<POD>` is your `POD ID` allocated.
 
 - Open portal > Provisioning > Skill  > Skill Definition
 - Click (New Skill Creation)  > Give Name(Agent_Profiency)and Description(Agent_Profiency) Type Proficiency
-- Click (New Skill Creation)  > Give Name(Premium_Agent)and Description(Premium_Agent) Type ’Text’
+- Click (New Skill Creation)  > Give Name(Premium_Agent)and Description(Premium_Agent) Type `’Text’`
+
+> **Note:** We are using "TEXT Skills" in this SBR lab so that you can directly target agents with a specific variable from flow. This gives powerful capabilities as you will see later.
 
 ### 2.Crete Skill Profile
 
@@ -129,16 +131,37 @@ Under value –
 Skill Requirements
 
 
-Agent_Proficiency >= 4
-Premium_Agent IS {{premium_cust_set}}
+> `Agent_Proficiency >= 4`
 
-Enable Skill Relaxation After waiting in queue for: 15 seconds
+> `Premium_Agent` IS `{{premium_cust_set}}`
 
-Set skill requirements to:
-Agent_Proficiency >= 4
+> Enable Skill Relaxation After waiting in queue for: `15 seconds`
+
+**Set skill requirements to:**
+
+> `Agent_Proficiency >= 4`
+
+### 6. Additional String Manipulation ! - CUSTOMER EMAIL CHECK
+
+- Create Custom String variable, Cust_Premium_check and Cust_Premium_check .
+- Drag and Drop Set Variable, Condition node and another Set Variable as explained in Video
+
+- In the First set variable parse for email, use `'''{{ Customer_Email | split("@") | last }}'''` to parse the domain name of email
+
+> **Note:** We used `"@"` hence we will need a new String wrapper of `'''String with "substring" to differentiate'''`
+
+> The filter functions on Pebble templates has a lot of info. 
+
+> [See Pebble Split Function](https://pebbletemplates.io/wiki/filter/split/){:target="_blank"}
+
+> [See Pebble Last Filter](https://pebbletemplates.io/wiki/filter/last/){:target="_blank"}
+
+>  In the Condition node, use this condition `{{Cust_premium_check =="gmail.com"}}`
+- If `True`, Set `Cust_premium_check` to `Yes` and connect it to main menu
+- If `False`, connect it to main menu
 
 
-### 6. Make a call and test the flow
+### 7. Make a call and test the flow
 
 - Verify the new flow end to end by first, logging into the Agent Desktop and going into a ready state.
 - Call the Dial number > Enter 5 digit pin non premium agent (36238) >  On - Main Menu press 1 >  Call queued for 15 seconds and gets connected to agent
