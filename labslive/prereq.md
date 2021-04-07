@@ -40,6 +40,15 @@ The following video outlines the pre-requisites. These need to be complete befor
 **NOTE:**
 Your `<POD>` is your `POD ID` allocated.
 
+### Quick Links
+
+> Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
+> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
+> Agent Desktop: **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
+> Mailinator: **[https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"}**
+
+---
+
 ## Summary
 
 > Check your user credentials in the Lab Email you just received. Through the course of this lab you will use the user starting with admin1pod__@__
@@ -47,26 +56,27 @@ Your `<POD>` is your `POD ID` allocated.
 **Check Licenses**
 
 
-1. Login to Control Hub > Users.
+### 1. Login to Control Hub > Users.
 -	Ensure the agents have the contact center license selected and are properly configured as Contact center enabled on Webex Contact center.
 - Ensure that they have activated the Email and are “Active” on Control Hub. 
 
 **Check Webex Calling Settings**
 
 
-2. Verify Webex Calling Settings
+### 2. Verify Webex Calling Settings
 - Check that a "Main" number is assigned to Webex Calling.
 - Check that the Calling Location is correctly set to "Intelepeer"
 
 
 **Synchronize Users**
 
-3. Synchronize users to get any newly activated users.
+### 3. Synchronize users to get any newly activated users.
 - Got to Contact Center > Settings > Synchronize Users
 
 **Check Admin settings, Agent Settings, Site, Team Configuration**
 
-4. Launch Portal to ensure the admin user admin1pod__@__ is Contact center configured for testing.
+### 4. Launch Portal to ensure the admin user admin1pod__@__ is Contact center configured for testing.
+
 - A Site has been created for the Admin: `Cisco_Live`, `Team_CiscoLive`
 - Ensure the Admin is Contact Center Enabled.
 - Associate the User to the Site, Team, default Multimedia Profile - `Default_Telephony_Profile`.
@@ -74,29 +84,31 @@ Your `<POD>` is your `POD ID` allocated.
 
 Desktop URL: **https://desktop.wxcc-us1.cisco.com/**
 
-> **Creating additional Agents:** You may create additional aliases using Mailinator (3rd party email alias generator) https://www.mailinator.com/
-
-> Login to mailinator, create an inbox : username@mailinator.com will then be able to receive emails.
-
-> Feel free to the user to Control Hub to add more users!
-
-> Remember to Synchronize Users on Control Hub when adding new users.
-
-5. Verify Webex Calling Installation
+### 5. Verify Webex Calling PC App Installation
 
 > **Participants can download and install the WebEx Calling App for Agents, Admins or Supervisors and make on-net calls.**
+
+**[Webex Calling PC APP - Download HERE !](https://cisco.app.box.com/s/fcbh0abcsruf5qxp99tj31ksx1bf2mh5){:target="_blank"}**
+
+> You will use the extension configured on Webex Calling : 3001 - to login to the Agent Desktop
 
 | **User Role** | **Contents**      | **Extension-DN Allotted**                   |
 | ----------- | ----------------- | -------------------------------- |
 | Admin        | admin1_\<POD-ID\>@email.carehybrid.com   | 3001 |
 
+### 5. OPTIONAL : Creating More Users - Agents - Supervisors - For Test Calling INBOUND
 
-### Quick Links
+- **Creating additional Agents OR Supervisors:** You may create additional aliases using Mailinator (3rd party email alias generator) **[https://www.mailinator.com/](https://www.mailinator.com/)**
 
-> Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
-> Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
-> Agent Desktop: **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
-> Mailinator: **[https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"}**
+- `These CAN be used for inbound call testing into the Contact Center : As Contact Center Customers!`
+
+> Login to mailinator, create an inbox : `username@mailinator.com` will then be able to receive emails.
+
+> Add the user to Control Hub Via > Control Hub > Users > Manage Users > Add via email : add the user_ID@mailinator.com
+
+> Remember to `Click Synchronize Users` on Control Hub when adding new users!
+
+
 
 ---
 ## You are now ready to Begin the Lab!
