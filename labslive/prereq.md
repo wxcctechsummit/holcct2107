@@ -96,7 +96,7 @@ Desktop URL: **https://desktop.wxcc-us1.cisco.com/**
 | ----------- | ----------------- | -------------------------------- |
 | Admin        | admin1_\<POD-ID\>@email.carehybrid.com   | 3001 |
 
-### 5. OPTIONAL : Creating More Users - Agents - Supervisors - For Test Calling INBOUND
+### OPTIONAL : Creating More Users - Agents - Supervisors - For Test Calling INBOUND
 
 - **Creating additional Agents OR Supervisors:** You may create additional aliases using Mailinator (3rd party email alias generator) **[https://www.mailinator.com/](https://www.mailinator.com/)**
 
