@@ -148,6 +148,10 @@ Under value – Skill Requirements
 
 - In the First set variable parse for email, use 
 
+```python
+'''{{ Customer_Email | split("@") | last }}'''
+```
+
 to parse the domain name of email
 
 > **Note:** We used "" within the String hence we will need a new String wrapper of `'''String with "substring" to differentiate'''`
