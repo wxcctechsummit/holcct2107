@@ -147,13 +147,9 @@ Under value – Skill Requirements
 - Drag and Drop Set Variable, Condition node and another Set Variable as explained in Video
 
 - In the First set variable parse for email, use 
-```python
-'''{{ Customer_Email | split("@") | last }}'''
-```
-
 to parse the domain name of email
 
-> **Note:** We used "\@" hence we will need a new String wrapper of `'''String with "substring" to differentiate'''`
+> **Note:** We used "" within the String hence we will need a new String wrapper of `'''String with "substring" to differentiate'''`
 
 > The filter functions on Pebble templates has a lot of info. 
 
@@ -166,6 +162,7 @@ to parse the domain name of email
 ```python
 {{Cust_premium_check =="gmail.com"}}
 ```
+
 - If `True`, Set `Cust_premium_check` to `Yes` and connect it to main menu
 - If `False`, connect it to main menu
 
@@ -173,8 +170,8 @@ to parse the domain name of email
 ### 7. Make a call and Test the end to end flow
 
 - Verify the new flow end to end by first, logging into the Agent Desktop and going into a ready state.
-- Call the Dial number > Enter 5 digit pin non premium agent (`36238`) >  On - Main Menu press 1 >  Call queued for 15 seconds and gets connected to agent
-- Call the Dial number > Enter 5 digit pin premium agent (`93752`) >  On Main Menu press 1 >  Call gets connected to agent immediately
+- Call the Dial number > Enter 5 digit pin non premium agent ( `36238` ) >  On - Main Menu press 1 >  Call queued for 15 seconds and gets connected to agent
+- Call the Dial number > Enter 5 digit pin premium agent ( `93752` ) >  On Main Menu press 1 >  Call gets connected to agent immediately
 
 ---
 
