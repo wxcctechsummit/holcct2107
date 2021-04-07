@@ -57,7 +57,7 @@ In this Lab, we will go through the tasks that are required to **Setup the HTTP 
 
 > **VIDEO TIMESTAMPS**
 
-> 00:00 - 00:40 — Overview
+> 00:00 - 04:00 — Overview
 
 > 04:00 - 18:00 — Step by Step Flow Building and Advanced HTTP Request
 
