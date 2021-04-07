@@ -113,14 +113,17 @@ Here is the configuration naming
 
 |Configuration |field Value|
 |-------------|----------|
-|Name |Queue_LAA_<ID>|
+|Name |Queue_LAA_`<ID>`|
 |Channel Type |Telephony|
 |*----  Contact Routing Settings ---*|
 |Queue Routing Type |Longest Available Agent|
-|Call Distribution |<Add team>|
+|Call Distribution |`<Add team>`|
+|*----  Advanced Settings ---*|
 |Service Level Threshold |20|
 |Maximum Time in Queue |7200|
 |Time Zone |Default|
+
+---
 
 - Map the DN from Control Hub - that is assigned to Wx Calling - on the Entry Point Mappings page. (Proivisioning > Entry Point Mappings). Map the DN to EP_voice_wxcclab
 
