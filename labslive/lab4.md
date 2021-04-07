@@ -78,42 +78,63 @@ Your `<POD>` is your `POD ID` allocated.
 
 ## Steps
 
+
 ### 1.Create Skill Definition
+- Open portal–>Provisioning–>Skill–>skill Definition
+- Click (New Skill Creation) –>Give Name(Agent_Profiency)and Description(Agent_Profiency) Type Proficiency
+- Click (New Skill Creation) –>Give Name(Premium_Agent)and Description(Premium_Agent) Type ’Text’
 
-- Open portal-->Provisioning-->Skill-->skill Definition 
-- Click (New Skill Creation) -->Give Name and Description 
-- Type -->Text
-
-### 2.Crete Skill Definition
-
-- Open portal-->Provisioning-->Skill-->skill Profile
-- Click (New Skill Profile) -->Give Name (Agent) and Description
-- Under Active Skill select skill created in step 1
-- Give Skill value as (Agent name : Agent 1)
+### 2.Crete Skill Profile
+- Open portal–>Provisioning–>Skill–>skill Profile
+- Click (New Skill Profile) –>Give Name (Cisco_Live_SP1) and Description(Cisco_Live_SP1) Select only Agent_Proficiency enter Skill Value to 5
+- Click (New Skill Profile) –>Give Name (Cisco_Live_SP2) and Description(Cisco_Live_SP2) Select Agent_Proficiency enter Skill Value to 5 and Premium_Agent and enter Skill Value to Yes
 
 ### 3. Add skill profile to User/ Agent
+- Open portal–>Users
+- Edit user –>under Skill Profile select the skill profile created in step 2 ((Cisco_Live_SP2))
 
-- Open portal-->Users
-- Edit user  -->under Skill Profile select the skill profile created in step 2
+### 4.Create new Queue with Skill based routing and Add team
+- Open portal–>Provisioning–>Entry point/Queue –>Queue
+- Create new Queue –> Give Name and Description
+- Channel Type –>Telephony
+- Queue Routing Type –>Skill Based –>Best Available Agent
+Add Team –>Team[Team_CiscoLive]
 
-### 4.Create new Queue with Skill based routing and Add team 
+Configuration field	Value
+Name	Queue_SBR
+Channel Type	Telephony
+Contact Routing Settings	 
+Queue Routing Type	Skills Based
+Agent Selection	Best Available Agent
+Call Distribution	<Add team>
+Service Level Threshold	20
+Maximum Time in Queue	7200
+Time Zone	Default
 
-- Open portal-->Provisioning-->Entry point/Queue -->Queue
-- Create new Queue --> Give Name and Description
-- Channel Type -->Telephony 
-- Queue Routing Type -->Skill Based -->Best Available Agent 
-- Add Team -->Team[podnumber]
 
-### 5. Change the previous flow with Skill based routing queue 
 
-- Open the Flow created before and click on Queue Contact node and change the queue to Skill based queue 
-- Skill Requirement Details -->Select Skill and condition 
-- Under value -->{{Agent}}
+### 5. Change the previous flow with Skill based routing queue
 
-### 6. Make a call and test the flow 
+- Open the Flow created before and click on Queue Contact node (Team1) and change the queue from Queue_Dummy to Queue_SBR
+- Skill Requirement Details –>Select Skill and condition
+Under value –
+Skill Requirements
+
+
+Agent_Proficiency >= 4
+Premium_Agent IS {{premium_cust_set}}
+
+Enable Skill Relaxation After waiting in queue for: 15 seconds
+
+Set skill requirements to:
+Agent_Proficiency >= 4
+
+
+### 6. Make a call and test the flow
 
 - Verify the new flow end to end by first, logging into the Agent Desktop and going into a ready state.
-- Ensure you’re able to recieve the variables on the Agent Desktop.
+- Call the Dial number --> Enter 5 digit pin non premium agent (36238) —> On - - Main Menu press 1 —> Call queued for 15 seconds and gets connected to agent
+- Call the Dial number --> Enter 5 digit pin premium agent (93752) —> On Main Menu press 1 —> Call gets connected to agent immediately
 
 ---
 
