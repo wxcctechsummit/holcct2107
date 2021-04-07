@@ -51,7 +51,19 @@ In this Lab, we will go through the tasks that are required to add additional fu
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/WnaVkrzcbWs?rel=0" title="WxCC Lab 2: Menu and Queue Treatment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-> The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
+> The video serves as a reference. View detailed steps in text below.
+
+> **VIDEO TIMESTAMPS**
+
+> 00:00 — 1:04 — Overview
+
+> 1:04 — 2:45 — Team and Queue Creation
+
+> 2:46 — 8:04 — Flow Demonstration/ Overview
+
+> 8:05 — 20:34 — step by step procedure to develop the flow
+
+> 20:35 — End — Troubleshoot & Test the flow 
 
 ---
 

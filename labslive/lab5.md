@@ -133,6 +133,10 @@ Note: The DialogFlow agent’s credentials are created on the DialogFlow API of 
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/9R2MMQhmUa8?rel=0" title="WxCC Lab 5 : CCAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+> The video serves as a reference. View detailed steps in text below.
+
+> **VIDEO TIMESTAMPS**
+
 ---
 ## Congratulations! You're All done with the Bonus Lab! 
 ## You are now ready to start the next Bonus Lab!
