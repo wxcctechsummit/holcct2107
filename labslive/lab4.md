@@ -150,9 +150,10 @@ Under value – Skill Requirements
 ```python
 '''{{ Customer_Email | split("@") | last }}'''
 ```
+
 to parse the domain name of email
 
-> **Note:** We used `"@"` hence we will need a new String wrapper of `'''String with "substring" to differentiate'''`
+> **Note:** We used "\@" hence we will need a new String wrapper of `'''String with "substring" to differentiate'''`
 
 > The filter functions on Pebble templates has a lot of info. 
 
