@@ -107,7 +107,21 @@ Your `<POD>` is your `POD ID` allocated.
 
 ### 3. Create an inbound Voice Entry Point and Voice Queue
 
-- Login to Portal and create an inbound voice entry point and voice queue. (Provisioning > Entry Point / Queue). Create EP_voice_wxcclab and Q_voice_wxcclab respectively.
+- Login to Portal and create an inbound voice entry point and voice queue. (Provisioning > Entry Point / Queue). 
+
+Here is the configuration naming
+
+|Configuration |field Value|
+|-------------|----------|
+|Name |Queue_LAA_<ID>|
+|Channel Type |Telephony|
+|*----  Contact Routing Settings ---*|
+|Queue Routing Type |Longest Available Agent|
+|Call Distribution |<Add team>|
+|Service Level Threshold |20|
+|Maximum Time in Queue |7200|
+|Time Zone |Default|
+
 - Map the DN from Control Hub - that is assigned to Wx Calling - on the Entry Point Mappings page. (Proivisioning > Entry Point Mappings). Map the DN to EP_voice_wxcclab
 
 ### 4. Verify the Audio Prompts, Create the Entry Point flow.
