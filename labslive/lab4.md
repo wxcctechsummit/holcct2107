@@ -1,10 +1,11 @@
 ---
-title: "Lab 4: Skills Based Routing"
+title: "Lab 4: Skills Based Routing (SBR)"
 ---
 <p align="center">
   <img src="https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg">
 </p>
-In this Lab, we will go through the tasks that are required to setup Skills Based Routing on Webex Contact Center.
+
+In this Lab, we will go through the tasks that are required to setup Skills Based Routing (SBR) on Webex Contact Center.
 
 # Table of Contents
 
@@ -126,9 +127,9 @@ Add Team  > Team[Team_CiscoLive]
 
 - Open the Flow created before and click on Queue Contact node (Team1) and change the queue from Queue_Dummy to Queue_SBR
 - Skill Requirement Details  > Select Skill and condition
-Under value –
+Under value – Skill Requirements 
 
-Skill Requirements
+**Set the following settings**
 
 > `Agent_Proficiency >= 4`
 
