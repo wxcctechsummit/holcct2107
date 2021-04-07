@@ -48,6 +48,7 @@ In this Lab, we will go through the tasks that are required to setup Skills Base
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/6YoNyFGpAUQ?rel=0" title="WxCC Lab 4 : Skills Based Routing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
+
 ---
 
 | **User Role** | **Contents**      | **Extension-DN Allotted**                   |
@@ -57,7 +58,7 @@ In this Lab, we will go through the tasks that are required to setup Skills Base
 **NOTE:**
 Your `<POD>` is your `POD ID` allocated.
 
-## Detailed Steps
+## Steps
 
 ### 1.Create Skill Definition
 

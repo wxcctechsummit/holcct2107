@@ -93,7 +93,7 @@ In this Lab, we will go through the tasks that are required to setup a **Simple 
 **NOTE:**
 Your `<POD>` is your `POD ID` allocated.
 
-## Detailed Steps
+## Steps
 
 ### 1. Verify that your users are ready to login
 

@@ -59,7 +59,7 @@ In this Lab, we will go through the tasks that are required to setup an outdial 
 **NOTE:**
 Your `<POD>` is your `POD ID` allocated.
 
-## Detailed Steps
+## Steps
 
 ### 1. Verify/create the Outdial Entry Point and Queue
 

@@ -59,7 +59,7 @@ In this Lab, we will go through the tasks that are required to **Setup the HTTP 
 
 **NOTE:**
 Your `<POD>` is your `POD ID` allocated.
-## Detailed Steps
+## Steps
 
 ### 1. Copy out the flow and configure the advanced flow 2
 

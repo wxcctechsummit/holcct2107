@@ -59,7 +59,7 @@ In this Lab, we will go through the tasks that are required to setup **Contact C
 
 **NOTE:**
 Your `<POD>` is your `POD ID` allocated.
-## Detailed Steps
+## Steps
 
 ### 1. Setup the Google CCAI voice bot
 
