@@ -133,12 +133,14 @@ Note: The DialogFlow agent’s credentials are created on the DialogFlow API of 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/9R2MMQhmUa8?rel=0" title="WxCC Lab 5 : CCAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
-
 ## Congratulations! You're All done with the Bonus Lab! 
 ## You are now ready to start the next Bonus Lab!
-## [Lab 6: BONUS --> Outdial Lab](lab6.md)
+## [Lab 6: BONUS - Configure Outdial](lab6.md)
 
-## We hope you enjoyed the labs!
+## We hope you enjoyed the lab!
+
+---
+> #### Note: If you would like to go back **[HOME, CLICK HERE](index.md)**
 
 ---
 
@@ -152,5 +154,5 @@ Note: The DialogFlow agent’s credentials are created on the DialogFlow API of 
 
 ### BONUS LABS
 
-* [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](lab5.md){:target="_blank"}
+* [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](lab5.md)
 * [BONUS - Lab 6 : Configure Out-dial](lab6.md){:target="_blank"}

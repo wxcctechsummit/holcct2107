@@ -88,7 +88,8 @@ Your \<ID\> is your `Attendee ID` provided in the email visible as the **"Attend
 
 ## Congratulations! You're All done with the Bonus Lab! 
 
-> #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](index.md)**
+---
+> #### Note: If you would like to go back **[HOME, CLICK HERE](index.md)**
 
 ---
 
@@ -103,4 +104,4 @@ Your \<ID\> is your `Attendee ID` provided in the email visible as the **"Attend
 ### BONUS LABS
 
 * [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](lab5.md){:target="_blank"}
-* [BONUS - Lab 6 : Configure Out-dial](lab6.md){:target="_blank"}
+* [BONUS - Lab 6 : Configure Out-dial](lab6.md)

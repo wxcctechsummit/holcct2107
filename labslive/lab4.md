@@ -113,7 +113,7 @@ Your \<ID\> is your `Attendee ID` provided in the email visible as the **"Attend
 * [Lab 1: Setup a Simple Flow and make a test call](lab1.md){:target="_blank"}
 * [Lab 2: Add Menu and Queue treatment to the call](lab2.md){:target="_blank"}
 * [Lab 3: Setup an advanced HTTP Request](lab3.md){:target="_blank"}
-* [Lab 4: Setup Skills Based Routing (SBR)](lab4.md){:target="_blank"}
+* [Lab 4: Setup Skills Based Routing (SBR)](lab4.md)
 
 ### BONUS LABS
 
