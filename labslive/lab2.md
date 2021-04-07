@@ -60,14 +60,15 @@ In this Lab, we will go through the tasks that are required to add additional fu
 
 > 00:00 — 1:04 — Overview
 
-> 1:04 — 2:45 — Team and Queue Creation
+> 1:04 — 2:45 — Team and Queue Creation - This is a Dummy Team to test "Queued" Calls
 
-> 2:46 — 8:04 — Flow Demonstration/ Overview
+> 2:46 — 8:04 — Flow Demonstration & Overview **Skip to 8:05 if you want to view step by step**
 
-> 8:05 — 20:34 — step by step procedure to develop the flow
+> 8:05 — 20:30 — Step by Step - Setup The Menu Block, Queue Block, Opt Out Menu, Callback steps
 
-> 20:35 — End — Troubleshoot & Test the flow 
+> 20:35 — 21:21 — Attach the Flow to the Entry Point Routing Strategy
 
+> 21:21 - End
 ---
 
 | **User Role** | **Contents**      | **Extension-DN Allotted**                   |
@@ -108,6 +109,7 @@ Your `<POD>` is your `POD ID` allocated.
 
 ---
 
+> You can Skip to 08:00 in the Video to Start Building the Flow Out by following the video
 
 ### 3. Configure the Queue Treatment loop and Opt Out and Callback steps
 
