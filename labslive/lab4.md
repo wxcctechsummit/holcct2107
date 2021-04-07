@@ -143,7 +143,7 @@ Under value – Skill Requirements
 
 ### 6. Additional String Manipulation ! - CUSTOMER EMAIL CHECK
 
-- Create Custom String variable, `Cust_Premium_check` and `Cust_Premium_check`.
+- Create Custom String variable, `Cust_Premium_check` and `Cust_Premium_set`.
 - Drag and Drop Set Variable, Condition node and another Set Variable as explained in Video
 
 - In the First set variable parse for email, use 
