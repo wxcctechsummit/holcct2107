@@ -18,11 +18,12 @@ The lab will also contain multiple deep dive and advanced exercises using Flow D
 
 **IVR Prompts**
 
-We will use a static prompts that have already been uploaded for you some exercises. If you would like to use dynamic TTS (Text-to-speech) prompts, you can refer to the Bonus section - Lab 5 - or use the preinstalled TTS conector. This is a Cisco TTS account that can be used for the duration of the lab. This TTS account will be revoked after the lab.
+We will use a static prompts that have already been uploaded for you some exercises. If you would like to use dynamic TTS (Text-to-speech) prompts, you can refer to the Bonus section - Lab 5 - or use the [preinstalled TTS conector using our Resources Link](https://cisco.box.com/s/oakd708czpfe0cpcgc3fd08o7ulxd9hw). This is a Cisco TTS account that can be used for the duration of the lab. This TTS account will be revoked after the lab.
 
 **Lookups, Advanced Queue Treatment, Screen-pops, CCAI**
 
 We have chosen specific areas of focus for advanced scripting topics. We have HTTP Request lookups, advanced queue treatment, screen pops, CCAI, and more. For additional queries or use cases that you may have received for business use-case, please feel free to reach out to us (proctors) to consult.
+CCAI Connectors (TTS and CCAI) can be found [here](https://cisco.box.com/s/oakd708czpfe0cpcgc3fd08o7ulxd9hw). 
 
 ## Lab Schedule
 
@@ -43,13 +44,13 @@ We have chosen specific areas of focus for advanced scripting topics. We have HT
 
 ## Lab Documents - Quick Links
 
-* [Important: Pre-Requisites](labslive/prereq.md){:target="_blank"}
-* [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md){:target="_blank"}
-* [Lab 2: Add Menu and Queue treatment to the call](labslive/lab2.md){:target="_blank"}
-* [Lab 3: Setup an advanced HTTP Request](labslive/lab3.md){:target="_blank"}
-* [Lab 4: Setup Skills Based Routing (SBR)](labslive/lab4.md){:target="_blank"}
+* [Important: Pre-Requisites](prereq.md){:target="_blank"}
+* [Lab 1: Setup a Simple Flow and make a test call](lab1.md){:target="_blank"}
+* [Lab 2: Add Menu and Queue treatment to the call](lab2.md){:target="_blank"}
+* [Lab 3: Setup an advanced HTTP Request](lab3.md){:target="_blank"}
+* [Lab 4: Setup Skills Based Routing (SBR)](lab4.md){:target="_blank"}
 
 ### BONUS LABS
 
-* [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](labslive/lab5.md){:target="_blank"}
-* [BONUS - Lab 6 : Configure Out-dial](labslive/lab6.md){:target="_blank"}
+* [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](lab5.md){:target="_blank"}
+* [BONUS - Lab 6 : Configure Out-dial](lab6.md){:target="_blank"}

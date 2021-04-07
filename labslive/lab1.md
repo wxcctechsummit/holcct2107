@@ -6,7 +6,7 @@ title: "Lab 1: Setup a Simple Flow and make a test call"
   <img src="https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg">
 </p>
 
-In this Lab, we will go through the tasks that are required to setup a simple flow and make a test call into the Contact Center.
+In this Lab, we will go through the tasks that are required to setup a **Simple flow and make a test call into the Contact Center**.
 
 # Table of Contents
 
@@ -23,14 +23,14 @@ In this Lab, we will go through the tasks that are required to setup a simple fl
 ### Lab Objective
 
 - This lab is designed to help you to make an end to end test call into the contact center. 
-- The lab contains material to send the call to the agent desktop.
+- The lab contains material to send a test call from the caller (customer) to the agent desktop using a Simple Flow.
 
 ### Pre-requisites
 
 - You have an assigned POD and attendee ID.
-- You have the customer admin login credentials.
-- You have the calling DNIS.
-- You have the agent’s extension number.
+- You have the customer Admin's login credentials.
+- You have the Called DNIS (Number used on the Contact Center Entry Point).
+- You have the Admin's Extension number for the agent (3001).
 - Prompt Wav files are uploaded, TEAM, SITE and USER are created. 
 
 ### Quick Links
@@ -54,10 +54,9 @@ In this Lab, we will go through the tasks that are required to setup a simple fl
 > The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
 ---
 
-| **User Role** | **User email**      | **User Extension**                   |
+| **User Role** | **Contents**      | **Extension-DN Allotted**                   |
 | ----------- | ----------------- | -------------------------------- |
-| Agent        | agent1_\<ID\>@mailinator.com   | 1000 |
-| Supervisor         | supervisor1_\<ID\>@mailinator.com  | 2000 |
+| Admin        | admin1_\<POD-ID\>@email.carehybrid.com   | 3001 |
 
 **NOTE:**
 

@@ -5,7 +5,7 @@ title: "Lab 5: Intelligent IVR using CCAI"
   <img src="https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg">
 </p>
 
-In this Lab, we will go through the tasks that are required to setup a simple flow and make a test call into the Contact Center.
+In this Lab, we will go through the tasks that are required to setup **Contact Center AI with the Voice Bot and Text to Speech capabilities**.
 
 # Table of Contents
 
@@ -144,13 +144,13 @@ Note: The DialogFlow agent’s credentials are created on the DialogFlow API of 
 
 ## Index: Quick Links
 
-* [Important: Pre-Requisites](labslive/prereq.md){:target="_blank"}
-* [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md){:target="_blank"}
-* [Lab 2: Add Menu and Queue treatment to the call](labslive/lab2.md){:target="_blank"}
-* [Lab 3: Setup an advanced HTTP Request](labslive/lab3.md){:target="_blank"}
-* [Lab 4: Setup Skills Based Routing (SBR)](labslive/lab4.md){:target="_blank"}
+* [Important: Pre-Requisites](prereq.md){:target="_blank"}
+* [Lab 1: Setup a Simple Flow and make a test call](lab1.md){:target="_blank"}
+* [Lab 2: Add Menu and Queue treatment to the call](lab2.md){:target="_blank"}
+* [Lab 3: Setup an advanced HTTP Request](lab3.md){:target="_blank"}
+* [Lab 4: Setup Skills Based Routing (SBR)](lab4.md){:target="_blank"}
 
 ### BONUS LABS
 
-* [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](labslive/lab5.md)
-* [BONUS - Lab 6 : Configure Out-dial](labslive/lab6.md){:target="_blank"}
+* [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](lab5.md){:target="_blank"}
+* [BONUS - Lab 6 : Configure Out-dial](lab6.md){:target="_blank"}
