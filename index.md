@@ -32,7 +32,7 @@ CCAI Connectors (TTS and CCAI) can be found [here](https://cisco.box.com/s/oakd7
 > The pre-requisites lab shows you the minimum configuration required to have the Webex Contact Center configured to login an Agent and get ready to build out flows.
 
 | Start | Duration |Session | Link |
-| ---- | -------|-----| | ----------------- |
+| ---- | -------|-----| ----------------- |
 | 4.30 PM CST | 30 mins| Lab Pre-Requisites |  [Pre-requisite Configuration](labslive/prereq.md){:target="_blank"} |
 | 5.00 PM CST | 35 mins | Making a Simple Test Call |  [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md){:target="_blank"} |
 | 5.35 PM CST | 40 mins | Menu and Queue Treatment | [Lab 2: Add Menu and Queue treatment to the call](labslive/lab2.md){:target="_blank"} |
