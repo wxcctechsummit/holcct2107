@@ -71,19 +71,16 @@ In this Lab, we will go through the tasks that are required to **Setup the HTTP 
 Your `<POD>` is your `POD ID` allocated.
 ## Steps
 
-### 1. Copy out the flow and configure the advanced flow
+### 1. Copy out the flow and configure the advanced flow 2
 
-Open the Portal > Routing Strategy > Flow page.
-Copy the existing flow flow_Lab1_Task2 and edit the copied flow - name it flow_Lab2_<ID>
-Edit the flow to go into flow designer.
-Ensure that you configure the Menu steps with a 3 option - 2 queue, 1 Blind Transfer step.
-Ensure you configure all the fields in the menu step including the prompts and the entry timeout (requires you to explore all options on the step).
-Ensure you configure all the blind transfer location to Cisco Toll Free : +18005536387 –Note: This will actually connect you to the live toll free number!
+- Open the Portal > Routing Strategy > Flow page.
+- Copy the existing flow `Flow_Lab2_<ID>` and edit the copied flow - name it `Flow_Lab3_<ID>`
+- Edit the flow to go into flow designer.
 
 ### 2. Enhance the existing flow with an authentication piece
 
 - Drag a play message block, Collect Digits, HTTP Request, Condition Block, 2 more Play message blocks and put them in front of the menu step.
-- Ensure the prompts are plugged in to the play message prompts. welcome, enter_pin, and after the HTTP and Condition, a corresponding success and failure prompt.
+- Ensure the prompts are plugged in to the play message prompts. `welcome`, `enter_pin`, and after the HTTP and Condition, a corresponding success and failure prompt.
 
 ### 3. Configure the Collect Digits block
 
@@ -91,20 +88,31 @@ Ensure you configure all the blind transfer location to Cisco Toll Free : +18005
 
 ### 4. Configure the custom variables and the HTTP Request Block
 
-- Create 3 Custom variables - mark them CAD variables - with names customerName,customerEmail ,customerAccount with labels Name, Email, Account and values of None OR Unavailable OR null - (depends on what you prefer as the default for the agents to see if no info is available in the data dip)
-- The request we will construct is : HTTPS GET -> https://5f97898842706e0016957443.mockapi.io/crm/api/customers?pin=18716
+- Create 3 Custom variables - mark them CAD variables - with names `customer_Name`,`customer_Email` ,`customer_Account` with labels `Name`, `Email`, `Account` and values of `Unavailable` OR `null` - *(depends on what you prefer as the default for the agents to see if no info is available in the data dip)*
+
+> The request we will construct is : 
+
+> **HTTPS GET** -> https://5f97898842706e0016957443.mockapi.io/crm/api/customers?pin=18716
+
 - Use the variable from the CollectDigits1.EnteredPIN variable to inject it in the pin lookup.
 - We will construct it as follows
 
-The HTTP Request URL : https://5f97898842706e0016957443.mockapi.io/crm/api/customers. 
+```
+HTTP Request
+GET https://5f97898842706e0016957443.mockapi.io/crm/api/customers
+
 Query Parameters: 
-pin with value of the block 
-(recheck your block variable name!) 
+pin with {{CollectDigits.DigitsEntered}} 
+
+with value of the block (recheck your block variable name!) 
+
 The type would be application/json 
+
 The Parse settings would be : 
-customerName with $.[0].name 
-customerEmail with $.[0].email 
-customerPhone with $.[0].phone
+customerName = $.[0].name 
+customerEmail = $.[0].email 
+customerPhone = $.[0].phone
+```
 
 **Tech-Tip:** Here are some practice exercises you can try by going to jsonpath.com 
 
@@ -115,35 +123,32 @@ customerPhone with $.[0].phone
 > - Try out all of these to learn how JSON path works!
 
 
-Query For 	Parse statement	Remarks
-All Customers
-	$.[0]
-	
-First Customer	$.[0]	
-Last Customer	$.[-1:]	
-First two customers	$.[0:2]	
-Last two customers	$.[-2:]	
-Second from last	$.[-2:-1]	
-first customer	$.[0]	
-All the names	$..name	
-All the pins	$..pin	
-All the customers who’s pin value is more than 70000 or 80000	$..[?(@.pin > 70000)]	
-All details of customer with account number	$..[?(@.account == "87305901”)].*	
-name of customer with account number	$.[?(@.account == "70579265")].name	
-		
+|Query For 	|Parse statement|
+|---|---|
+|All Customers|`$.[0]`|
+|First Customer|	`$.[0]`	|
+|Last Customer|	`$.[-1:]`	|
+|First two customers|	`$.[0:2]`	|
+|Last two customers	|`$.[-2:]`	|
+|Second from last|	`$.[-2:-1]`	|
+|All the names|	`$..name`	|
+|All the pins|	`$..pin`	|
+|All the customers who’s pin value is more than 70000 or 80000|	`$..[?(@.pin > 70000)]`	|
+|All details of customer with account number	|`$..[?(@.account == "87305901”)].*`|
+|Name of customer with account number	|`$.[?(@.account == "70579265")].name`|
 
 ### 5. Configure the Conditional for Error Check
 
 - Use the httpBlock.StatusCode variable to check the value retured.
 - Note that the test API does not give a 404 but an empty list [] with a 200 when no match is found. However, this step is just to understand error handling and checking.
-- Use the </> expression check on the condition and play success and failure prompts accordingly.
+- Use the `</>` expression check on the condition and play success and failure prompts accordingly.
 - Ensure all the settings per block are entered and properly setup.
 - Validate and Publish the new script, correcting any errors that show up during validation.
 
 ### 6. Point to the New flow in the Routing Strategy
 
-- Go to the routing Strategy page > Routing Strategy > EP_voice_wxcclab
-- Once the flow is published, configure the Entry Point Routing strategy to point to the new flow advanced_flow2_wxcclab.
+- Go to the routing Strategy page > Routing Strategy > `EP_CiscoLive_<ID>`
+- Once the flow is published, configure the Entry Point Routing strategy to point to the new flow `Flow_Lab3_<ID>`.
 
 ### 7. Verify the flow end to end
 
