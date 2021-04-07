@@ -156,3 +156,23 @@ Note: The DialogFlow agent’s credentials are created on the DialogFlow API of 
 
 * [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](lab5.md)
 * [BONUS - Lab 6 : Configure Out-dial](lab6.md){:target="_blank"}
+
+<script>
+function mainPage() {window.location.href = "https://wxcctechsummit.github.io/holcct2107/";}
+function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2107/labslive/lab6.html";}
+</script>
+
+<div id="button-row">
+	<button onclick="mainPage()" style="
+  border-radius: 5px;
+  background-color: #add8e6;
+  padding: 10px;">Go Home</button>
+
+ <button onclick="nextLab()" style="
+  position: absolute;
+  right: 200px;
+  border-radius: 5px;
+  background-color: #add8e6;
+  padding: 10px;">NEXT Lab 6: Configure Outdial</button>
+  
+</div>

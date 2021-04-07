@@ -122,7 +122,7 @@ Your \<ID\> is your `Attendee ID` provided in the email visible as the **"Attend
 
 <script>
 function mainPage() {window.location.href = "https://wxcctechsummit.github.io/holcct2107/";}
-function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2107/labslive/lab4.html";}
+function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2107/labslive/lab5.html";}
 </script>
 
 <div id="button-row">
@@ -136,6 +136,6 @@ function nextLab() {window.location.href = "https://wxcctechsummit.github.io/hol
   right: 200px;
   border-radius: 5px;
   background-color: #add8e6;
-  padding: 10px;">NEXT Lab 4: Configuring Skills Based Routing</button>
+  padding: 10px;">NEXT Lab 5: Configure CCAI Bots and TTS</button>
   
 </div>
