@@ -34,9 +34,12 @@ In this Lab, we will go through the tasks that are required to setup an outdial 
 ### Quick Links
 
 > Control hub: **[https://admin.webex.com](https://admin.webex.com){:target="_blank"}**\
+
 > Portal: **[https://portal.wxcc-us1.cisco.com/portal](https://portal.wxcc-us1.cisco.com/portal){:target="_blank"}**\
+
 > Agent Desktop: **[https://desktop.wxcc-us1.cisco.com/](https://desktop.wxcc-us1.cisco.com/){:target="_blank"}**
-> Mailinator: **[https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"}**
+
+> Mailinator (Can Be Used to Create a New User user@mailinator.com): **[https://www.mailinator.com/](https://www.mailinator.com/){:target="_blank"}**
 
 # Lab
 
