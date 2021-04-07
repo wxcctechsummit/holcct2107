@@ -4,7 +4,8 @@ title: "Lab 3: Advanced Flows - HTTP Requests"
 <p align="center">
   <img src="https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg">
 </p>
-In this Lab, we will go through the tasks that are required to setup the HTTP Request block on Flow Designer and perform advanced data manipulation.
+
+In this Lab, we will go through the tasks that are required to **Setup the HTTP Request block on Flow Designer** and perform advanced data manipulation.
 
 # Table of Contents
 
