@@ -146,7 +146,11 @@ Under value – Skill Requirements
 - Create Custom String variable, `Cust_Premium_check` and `Cust_Premium_check`.
 - Drag and Drop Set Variable, Condition node and another Set Variable as explained in Video
 
-- In the First set variable parse for email, use `'''{{ Customer_Email | split("@") | last }}'''` to parse the domain name of email
+- In the First set variable parse for email, use 
+```python
+'''{{ Customer_Email | split("@") | last }}'''
+```
+to parse the domain name of email
 
 > **Note:** We used `"@"` hence we will need a new String wrapper of `'''String with "substring" to differentiate'''`
 
@@ -156,7 +160,11 @@ Under value – Skill Requirements
 
 > [See Pebble Last Filter](https://pebbletemplates.io/wiki/filter/last/){:target="_blank"}
 
->  In the Condition node, use this condition `{{Cust_premium_check =="gmail.com"}}`
+>  In the Condition node, use this condition 
+
+```python
+{{Cust_premium_check =="gmail.com"}}
+```
 - If `True`, Set `Cust_premium_check` to `Yes` and connect it to main menu
 - If `False`, connect it to main menu
 
