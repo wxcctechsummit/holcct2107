@@ -153,8 +153,10 @@ customerPhone = $.[0].phone
 ### 7. Verify the flow end to end
 
 - Verify the new flow end to end by first, logging into the Agent Desktop and going into a ready state.
-- Ensure you’re able to recieve the variables on the Agent Desktop.
+- Execute the bewlo Test:
+- Call the Dial number > Enter the 5 digit PIN number > On Main Menu press 2 > call gets connected to agent, 
 
+`Agent should see all CAD variables (Customer Name, Email, Account Number)`
 
 ---
 
