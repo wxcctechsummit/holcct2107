@@ -94,13 +94,13 @@ Your `<POD>` is your `POD ID` allocated.
 ### 2.Crete Skill Profile
 
 - Open portal > Provisioning > Skill > skill Profile
-- Click (New Skill Profile)  > Give Name (Cisco_Live_SP1) and Description(Cisco_Live_SP1) Select only Agent_Proficiency enter Skill Value to 5
-- Click (New Skill Profile)  > Give Name (Cisco_Live_SP2) and Description(Cisco_Live_SP2) Select Agent_Proficiency enter Skill Value to 5 and Premium_Agent and enter Skill Value to Yes
+- Click (New Skill Profile)  > Give Name  - `Cisco_Live_SP1` and Description - `Cisco_Live_SP1` Select only `Agent_Proficiency` enter Skill Value to `5`
+- Click (New Skill Profile)  > Give Name - `Cisco_Live_SP2` and Description - `Cisco_Live_SP2` Select `Agent_Proficiency` enter Skill Value to `5` and `Premium_Agent` and enter `Skill Value` to `Yes`
 
 ### 3. Add skill profile to User/ Agent
 
 - Open portal > Users
-- Edit user  > under Skill Profile select the skill profile created in step 2 ((Cisco_Live_SP2)
+- Edit user  > under Skill Profile select the skill profile created in step 2 - `Cisco_Live_SP2`
 
 ### 4.Create new Queue with Skill based routing and Add team
 
