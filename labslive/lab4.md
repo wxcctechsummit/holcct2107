@@ -87,7 +87,7 @@ Your `<POD>` is your `POD ID` allocated.
 
 - Open portal > Provisioning > Skill  > Skill Definition
 - Click (New Skill Creation)  > Give Name(Agent_Profiency)and Description(Agent_Profiency) Type Proficiency
-- Click (New Skill Creation)  > Give Name(Premium_Agent)and Description(Premium_Agent) Type `’Text’`
+- Click (New Skill Creation)  > Give Name(Premium_Agent)and Description(Premium_Agent) Type `Text`
 
 > **Note:** We are using "TEXT Skills" in this SBR lab so that you can directly target agents with a specific variable from flow. This gives powerful capabilities as you will see later.
 
