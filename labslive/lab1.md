@@ -135,34 +135,28 @@ Your `<POD>` is your `POD ID` allocated.
 
 ### 4. Verify the Audio Prompts, Create the Entry Point flow.
 
-- The audio prompts required for the script build out are wav files. The whole bundle of wav files can be found here.
-- You may listen to the files to get an idea of the kind of flows being constructed in the later labs.
-- To create a flow and have these wav files ready for use, ensure that these prompt files are already uploaded to the org.
-- To upload the audio files, Go to Routing Strategy (from Portal) > Resources > Audio Files and ensure that the audio files are uploaded. (Browse > New > Upload the files)
-- Then, you can go to flow to create the flow. Routing Strategy (from Portal) > Flow > New and create the new flow as described in the video above.
+- The audio prompts required for the script build out are wav files. The whole bundle of [wav files can be found here](https://cisco.box.com/s/oakd708czpfe0cpcgc3fd08o7ulxd9hw){:target="_blank"} **But these are already uploaded for you**.
+
+> **Note:** Uploaded audio files are already under > Routing Strategy (from Portal) > Resources > Audio Files. 
 
 ### 5. Configure and Publish the flow
 
-- Configure the flow flow_wxcclab with a Play prompt - welcome message and queue block and play music block.
-- Configure the Queue Block to Q_voice_wxcclab. Map the queue inside of the queue block.
-- Configure the event flow under the queue - ensure they have end flow steps.
-- Configure the play music to loop, and start 0, end 120 to play 2 minutes of music.
+- Configure the flow `flow_Lab1_Task1<ID>` with a Play prompt - welcome message and Disconnect
+- Configure the flow `flow_Lab1_Task2<ID>` with a Play prompt - welcome message and queue block and play music block.
+- Configure the Queue Block to `Queue_LAA_<ID>`. Map the queue inside of the q ueue block.
+- Configure the play music to loop, and start 0, end 10 to play 10 seconds of music.
 - Verify and publish the flow.
-
 ### 6. Configure the Entry Point Routing Strategy
 
-- Configure the Open 24x7 routing strategy time of day on the Entry Point Routing strategy by selecting it on the Routing Strategies > EP_voice_wxcclab.
+- Configure the Open 24x7 routing strategy time of day on the Entry Point Routing strategy by selecting it on the Routing Strategies >`EntryPoint_CL_Lab_<ID>`.
 - Map the flow flow_wxcclab you just created in there.
 
-### 7. Configure the Queue Routing Strategy
+### 7. Make a test call
 
-- Create the Queue routing strategy for Q_voice_wxcclab using a 24x7 open queue.
-- Map the Team Team_wxcclab to the Queue. Your Agent will then login to that team to get the call.
+- Login to the agent desktop into `Team_CiscoLive` and go to a ready state.
 
-### 8. Make a test call
-
-- Login to the agent desktop into Team_wxcclab and go to a ready state.
-- Dial the number using your cell. You should hear the welcome prompt and get the call on the agent desktop.
+- Task 1 > Call the Dial number > Hear the welcome prompt and call should get disconnected.
+- Task 2 > Call the Dial number > Available agent gets connected immediately, If the Agent is not available the call is queued and music is played. 
 
 ---
 ## Congratulations! You're done! 
