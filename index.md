@@ -58,19 +58,3 @@ CCAI Connectors (TTS and CCAI) can be found [here](https://cisco.box.com/s/oakd7
 
 * [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](labslive/lab5.md){:target="_blank"}
 * [BONUS - Lab 6 : Configure Out-dial](labslive/lab6.md){:target="_blank"}
-
-
-<script>
-function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2107/labslive/prereq.html";}
-</script>
-
-<div id="button-row">
-
- <button onclick="nextLab()" style="
-  position: absolute;
-  right: 200px;
-  border-radius: 5px;
-  background-color: #add8e6;
-  padding: 10px;">NEXT Lab 2: Configuring Menu and Queue Treatment</button>
-  
-</div>
