@@ -127,8 +127,8 @@ Add Team  > Team[Team_CiscoLive]
 - Open the Flow created before and click on Queue Contact node (Team1) and change the queue from Queue_Dummy to Queue_SBR
 - Skill Requirement Details  > Select Skill and condition
 Under value –
-Skill Requirements
 
+Skill Requirements
 
 > `Agent_Proficiency >= 4`
 
@@ -160,7 +160,7 @@ Skill Requirements
 - If `False`, connect it to main menu
 
 
-### 7. Make a call and test the flow
+### 7. Make a call and Test the end to end flow
 
 - Verify the new flow end to end by first, logging into the Agent Desktop and going into a ready state.
 - Call the Dial number > Enter 5 digit pin non premium agent (`36238`) >  On - Main Menu press 1 >  Call queued for 15 seconds and gets connected to agent
