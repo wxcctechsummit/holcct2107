@@ -149,8 +149,8 @@ Under value – Skill Requirements
 - In the First set variable parse for email, use 
 
 {% raw %}
-'''{{ Customer_Email | split("@") | last }}'''
-{% endraw %}
+`'''{{ Customer_Email | split("@") | last }}'''`
+{% raw %}
 
 to parse the domain name of email
 
@@ -164,9 +164,9 @@ to parse the domain name of email
 
 >  In the Condition node, use this condition 
 
-```python
-{{Cust_premium_check =="gmail.com"}}
-```
+{% raw %}
+`{{Cust_premium_check =="gmail.com"}}`
+{% raw %}
 
 - If `True`, Set `Cust_premium_check` to `Yes` and connect it to main menu
 - If `False`, connect it to main menu
