@@ -163,7 +163,7 @@ name of customer with account number	$.[?(@.account == "70579265")].name
 
 <script>
 function mainPage() {window.location.href = "https://wxcctechsummit.github.io/holcct2107/";}
-function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2107/labslive/lab3.html";}
+function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2107/labslive/lab4.html";}
 </script>
 
 <div id="button-row">
@@ -177,6 +177,6 @@ function nextLab() {window.location.href = "https://wxcctechsummit.github.io/hol
   right: 200px;
   border-radius: 5px;
   background-color: #add8e6;
-  padding: 10px;">NEXT Lab 3: Configuring Advanced HTTP Request Block</button>
+  padding: 10px;">NEXT Lab 4: Configuring Skills Based Routing</button>
   
 </div>

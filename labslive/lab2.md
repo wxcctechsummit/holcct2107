@@ -116,3 +116,23 @@ Your \<ID\> is your `Attendee ID` provided in the email visible as the **"Attend
 
 * [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](lab5.md){:target="_blank"}
 * [BONUS - Lab 6 : Configure Out-dial](lab6.md){:target="_blank"}
+
+<script>
+function mainPage() {window.location.href = "https://wxcctechsummit.github.io/holcct2107/";}
+function nextLab() {window.location.href = "https://wxcctechsummit.github.io/holcct2107/labslive/lab3.html";}
+</script>
+
+<div id="button-row">
+	<button onclick="mainPage()" style="
+  border-radius: 5px;
+  background-color: #add8e6;
+  padding: 10px;">Go Home</button>
+
+ <button onclick="nextLab()" style="
+  position: absolute;
+  right: 200px;
+  border-radius: 5px;
+  background-color: #add8e6;
+  padding: 10px;">NEXT Lab 3: Configuring Advanced HTTP Request Block</button>
+  
+</div>
