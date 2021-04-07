@@ -53,16 +53,19 @@ In this Lab, we will go through the tasks that are required to setup Skills Base
 
 > **VIDEO TIMESTAMPS**
 
-> 00:00 — 1:04 — Overview
+> 00:00 - 00 01 - Recap
 
-> 1:04 — 2:45 — Team and Queue Creation
+> 00:01 -3:17 - Agenda
 
-> 2:46 — 8:04 — Flow Demonstration/ Overview
+> 3:17 -  5:22 - Define Skill & Skill Profile 
 
-> 8:05 — 20:34 — step by step procedure to develop the flow
+> 5:23 - 5:53 - Tagging Skill Profile to User
 
-> 20:35 — End — Troubleshoot & Test the flow 
+> 5:54 - 7 30 - SBR Queue 
 
+> 7:30 - 18:30 -Step Step Flow Building
+
+> 18:31 - End   - Troubleshoot & Test the flow 
 
 ---
 
