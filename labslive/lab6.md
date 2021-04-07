@@ -81,26 +81,30 @@ Your `<POD>` is your `POD ID` allocated.
 
 ### 1. Verify/create the Outdial Entry Point and Queue
 
-- Login to Portal > Provisioning > Outdial Entry Point / Outdial Queue.
+- Login to Portal > Provisioning > Outdial Entry Point > Configure an Outdial Entry Point. 
+- Verify you already have an outdial Queue configured on Portal > Provisioning > Outdial Queue.
 - Ensure that the system created outdial entry points and queues are present and configure their settings.
-- Go to Provisioning > Outdial ANI > Create an Outdial ANI on the setup by mapping it to your existing toll free.
-- Go to Provisioning > Agent Profiles > Select the Agent Profile and go to the Dial Plan tab.
-- Configure all the Outdial settings on the dial plan.
+- Alternatively, you can setup a new Outdial Entry Point as shown in the video.
 
 ### 2. Create the Outdial Entry Point Routing Strategy
 
-- Go Routing Strategy > Outdial Entry Point-1 and configure the outdial entry point routing strategy to the script Outdial_EP.js which is the system default.
+- Go Routing Strategy > Outdial Entry Point-1 OR the One you just setup
+- Configure the outdial entry point routing strategy to the script Outdial_EP.js which is the system default.
 - Ensure the strategy time of day setting is correctly open 24x7 and marked default.
 
-### 3. Create the Outdial Queue Routing Strategy
+> **Note:** There are no more Queue Routing Strategies on the new Webex Contact Center.
 
-- Go Routing Strategy > Outdial Queue-1 and configure the outdial queue routing strategy to map to the Team_wxcclab.
+### 3. Setup Your Agent Profile for Outdial
+
+- Go to Provisioning > Agent Profiles > Select the Agent Profile and go to the Dial Plan tab.
+- Configure all the Outdial settings on the dial plan as shown in the video.
+- Attach the Outdial ANI, Address books etc. to the agent profile. Setup the Dial Plan Settings.
 
 ### 4. Test Outdial
 
 - Logout/login the Agent on the agent desktop for the new agent profile settings to take effect.
 - You should see the Outdial button and the agent is now able to make an outdial call.
-- Test it by calling your cell or the provided Cisco Public Tollfree - +18005536387` –Note: This will actually connect you to the live toll free number!
+- Test it by calling your cell or the provided Cisco Public Tollfree - `+18005536387` –Note: This will actually connect you to a live toll free number for Cisco Support!
 - You should have all the connected call features pop on the agent desktop once the call is complete.
 
 ---
