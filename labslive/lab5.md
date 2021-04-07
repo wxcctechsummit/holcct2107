@@ -211,7 +211,7 @@ Your `<POD>` is your `POD ID` allocated.
 ## We hope you enjoyed the lab!
 
 ---
-> #### Note: If you would like to go back **[HOME, CLICK HERE](/../index.md)**
+> #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](https://wxcctechsummit.github.io/holcct2107/)**
 
 ---
 

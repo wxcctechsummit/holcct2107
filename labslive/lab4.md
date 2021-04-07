@@ -185,8 +185,8 @@ to parse the domain name of email
 ## You are done with all the mandatory sections! Explore the bonus lab below!
 ## [BONUS - Lab 5: Intelligent IVR using Contact Center AI](lab5.md){:target="_blank"}
 
-
-> #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](/../index.md)**
+---
+> #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](https://wxcctechsummit.github.io/holcct2107/)**
 ---
 
 ## Index: Quick Links

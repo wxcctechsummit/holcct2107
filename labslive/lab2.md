@@ -139,7 +139,7 @@ Validate the flow and publish it.
 ## [Lab 3: Add Advanced HTTP Request Capabilities](lab3.md){:target="_blank"}
 
 ---
-> #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](/../index.md)**
+> #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](https://wxcctechsummit.github.io/holcct2107/)**
 
 ---
 

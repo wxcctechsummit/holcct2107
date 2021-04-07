@@ -167,7 +167,7 @@ customerPhone = $.[0].phone
 ## [Lab 4: Skills Based Routing](lab4.md){:target="_blank"}
 
 ---
-> #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](/../index.md)**
+> #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](https://wxcctechsummit.github.io/holcct2107/)**
 ---
 
 ## Index: Quick Links
