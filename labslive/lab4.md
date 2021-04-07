@@ -148,9 +148,9 @@ Under value – Skill Requirements
 
 - In the First set variable parse for email, use 
 
-```python
+<p>
 '''{{ Customer_Email | split("@") | last }}'''
-```
+</p>
 
 to parse the domain name of email
 
