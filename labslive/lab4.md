@@ -147,6 +147,7 @@ Under value – Skill Requirements
 - Drag and Drop Set Variable, Condition node and another Set Variable as explained in Video
 
 - In the First set variable parse for email, use 
+
 to parse the domain name of email
 
 > **Note:** We used "" within the String hence we will need a new String wrapper of `'''String with "substring" to differentiate'''`
