@@ -47,9 +47,9 @@ In this Lab, we will go through the tasks that are required to setup **Contact C
 
 > The following video outlines the process to create a simple flow. The video uses a generic example. 
 
-> **[Download the TTS Connector here - holcct-2107-tts-connector.json](https://cisco.app.box.com/s/oakd708czpfe0cpcgc3fd08o7ulxd9hw)**
+> **[Download the TTS Connector here - holcct-2107-tts-connector.json](https://cisco.app.box.com/s/oakd708czpfe0cpcgc3fd08o7ulxd9hw){:target="_blank"}**
 
-> **[Download the CCAI Bot Connector here - holcct-2107-ccai-connector.json](https://cisco.app.box.com/s/oakd708czpfe0cpcgc3fd08o7ulxd9hw)**
+> **[Download the CCAI Bot Connector here - holcct-2107-ccai-connector.json](https://cisco.app.box.com/s/oakd708czpfe0cpcgc3fd08o7ulxd9hw){:target="_blank"}**
 
 **E.g**: `If you are attendee 123 you would use EntryPoint_CL_Lab_123`
 
@@ -60,11 +60,11 @@ In this Lab, we will go through the tasks that are required to setup **Contact C
 
 > 4:55 - 5:15 - Configure TTS Connector
 
-> **[Download the TTS Connector here - holcct-2107-tts-connector.json](https://cisco.app.box.com/s/oakd708czpfe0cpcgc3fd08o7ulxd9hw)**
+> **[Download the TTS Connector here - holcct-2107-tts-connector.json](https://cisco.app.box.com/s/oakd708czpfe0cpcgc3fd08o7ulxd9hw){:target="_blank"}**
 
 > 5:15 - 5:20 - Create a new Virtual Agent
 
-> **[Download the CCAI Bot Connector here - holcct-2107-ccai-connector.json](https://cisco.app.box.com/s/oakd708czpfe0cpcgc3fd08o7ulxd9hw)**
+> **[Download the CCAI Bot Connector here - holcct-2107-ccai-connector.json](https://cisco.app.box.com/s/oakd708czpfe0cpcgc3fd08o7ulxd9hw){:target="_blank"}**
 
 > 6:29 - 8:20 - Plug in the CCAI Bot
 
@@ -94,7 +94,16 @@ Your `<POD>` is your `POD ID` allocated.
 - Click on Next if it prompts you to download the Intents. We have already uploaded these for you.
 - When it asks for the Upload JSON key – upload the file provided: ciscolive-ccai.json
 - When it asks for a name – name the bot: CLUS_CCAI_Bot
-- Click on Next > Skip the avatar section > Click Finish. Note: The DialogFlow agent’s credentials are created on the DialogFlow API of the project on Gooogle Cloud Console. We need the DialogFlow API as well as the TTS API enabled on the account, along with the DialogFlow API Admin role. This has already been done for you and which is why just uploading the key provided is sufficient.
+- Click on Next > Skip the avatar section > Click Finish. 
+
+> **Note:** The DialogFlow agent’s credentials are created on the DialogFlow API of the project on Gooogle Cloud Console. 
+
+> We need the `DialogFlow API` as well as the `TTS API` enabled on the account, along with the `DialogFlow API Admin role`. 
+
+> This has already been done for you and which is why just uploading the key provided is sufficient.
+
+> **[The Keys are in the Location - here](https://cisco.app.box.com/s/oakd708czpfe0cpcgc3fd08o7ulxd9hw){:target="_blank"}**
+
 
 ### 2. Wire up the DialogFlow Agent inside of the Flow.
 
