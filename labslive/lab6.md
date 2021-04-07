@@ -54,11 +54,10 @@ In this Lab, we will go through the tasks that are required to setup an outdial 
 
 | **User Role** | **Contents**      | **Extension-DN Allotted**                   |
 | ----------- | ----------------- | -------------------------------- |
-| Admin        | admin1_\<POD-ID\>@email.carehybrid.com   | 3001 |
+| Admin        | admin1pod`<POD>`@email.carehybrid.com   | 3001 |
 
 **NOTE:**
-
-Your \<ID\> is your `Attendee ID` provided in the email visible as the **"Attendee ID"** line.
+Your `<POD>` is your `POD ID` allocated.
 
 ## Detailed Steps
 

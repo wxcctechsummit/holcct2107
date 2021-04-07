@@ -31,6 +31,15 @@ The following video outlines the pre-requisites. These need to be complete befor
 
 > 2:52 - Verify Agent Login
 
+---
+
+| **User Role** | **Contents**      | **Extension-DN Allotted**                   |
+| ----------- | ----------------- | -------------------------------- |
+| Admin        | admin1pod`<POD>`@email.carehybrid.com   | 3001 |
+
+**NOTE:**
+Your `<POD>` is your `POD ID` allocated.
+
 ## Summary
 
 > Check your user credentials in the Lab Email you just received. Through the course of this lab you will use the user starting with admin1pod__@__

@@ -53,15 +53,45 @@ In this Lab, we will go through the tasks that are required to setup a **Simple 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/EELO2flwwFc?rel=0" title="WxCC Lab 1: Setting up a Simple Flow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
+
+> **Task 1 - Timestamps**
+
+> 00.00 - 1.24 — Overview
+
+> 1.24 - 2.50 — Upload Wav Files
+
+> 2.50 - 5 27 — Flow Creation
+
+> 5.28 - 6.52 — Entry Point Creation
+
+> 6.52 - 11:42 —Routing Strategy Creation
+
+> 11:43 - 13:08 — DN — EP Mapping
+
+> 13:09 - 13:57 — Troubleshoot & Test the flow 
+
+> **Task 2 - Timestamps**
+
+> 13:58 - 14:14 — Overview
+
+> 14:15 - 1511 — Site Creation
+
+> 15:12 - 16:54 — Team Creation
+
+> 16:55 -18:34 —- Queue Creation
+
+> 18:35 - 21:33 — Flow Creation
+
+> 21:34 - 25.22 — Troubleshoot & Test the Flow 
+
 ---
 
 | **User Role** | **Contents**      | **Extension-DN Allotted**                   |
 | ----------- | ----------------- | -------------------------------- |
-| Admin        | admin1_\<POD-ID\>@email.carehybrid.com   | 3001 |
+| Admin        | admin1pod`<POD>`@email.carehybrid.com   | 3001 |
 
 **NOTE:**
-
-Your \<ID\> is your `Attendee ID` provided in the email visible as the **"Attendee ID"** line.
+Your `<POD>` is your `POD ID` allocated.
 
 ## Detailed Steps
 

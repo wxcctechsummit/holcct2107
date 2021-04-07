@@ -50,16 +50,15 @@ In this Lab, we will go through the tasks that are required to **Setup the HTTP 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/WVGACrbLxp0?rel=0" title="WxCC Lab 3: HTTP Request" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
+
 ---
 
 | **User Role** | **Contents**      | **Extension-DN Allotted**                   |
 | ----------- | ----------------- | -------------------------------- |
-| Admin        | admin1\<POD-ID\>@email.carehybrid.com   | 3001 |
+| Admin        | admin1pod`<POD>`@email.carehybrid.com   | 3001 |
 
 **NOTE:**
-
-Your \<ID\> is your `Attendee ID` provided in the email visible as the **"Attendee ID"** line.
-
+Your `<POD>` is your `POD ID` allocated.
 ## Detailed Steps
 
 ### 1. Copy out the flow and configure the advanced flow 2
