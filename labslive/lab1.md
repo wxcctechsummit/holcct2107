@@ -14,7 +14,7 @@ In this Lab, we will go through the tasks that are required to setup a **Simple 
   * [Lab Objective](#lab-objective)
   * [Pre-Requisites](#pre-requisites)
   * [Quick Links](#quick-links)
-- [Video: Lab Walkthrough](#Video-Lab-1---Setting-up-a-Simple-Flow)
+- [Video: Lab Walkthrough](#video-lab-1---setting-up-a-simple-flow)
 - [Detailed Steps](#detailed-steps)
 - [Lab Index - Quick Links](#index-quick-links)
 

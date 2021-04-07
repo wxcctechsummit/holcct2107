@@ -12,7 +12,7 @@ In this Lab, we will go through the tasks that are required to setup Skills Base
   * [Lab Objective](#lab-objective)
   * [Pre-Requisites](#pre-requisites)
   * [Quick Links](#quick-links)
-- [Video: Lab Walkthrough](#Video-Lab-4---Skills-Based-Routing)
+- [Video: Lab Walkthrough](#video-lab-4---skills-based-routing)
 - [Detailed Steps](#detailed-steps)
 
 # Overview

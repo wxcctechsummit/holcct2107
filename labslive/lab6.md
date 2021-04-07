@@ -13,7 +13,7 @@ In this Lab, we will go through the tasks that are required to setup an outdial 
   * [Lab Objective](#lab-objective)
   * [Pre-Requisites](#pre-requisites)
   * [Quick Links](#quick-links)
-- [Video: Lab Walkthrough](#Video-BONUS-Lab-6---Outdial-Configuration)
+- [Video: Lab Walkthrough](#video-bonus-lab-6---outdial-configuration)
 - [Detailed Steps](#detailed-steps)
 
 # Overview

@@ -13,7 +13,7 @@ In this Lab, we will go through the tasks that are required to add additional fu
   * [Lab Objective](#lab-objective)
   * [Pre-Requisites](#pre-requisites)
   * [Quick Links](#quick-links)
-- [Video: Lab Walkthrough](#Video-Lab-2---Adding-Menu-And-Queue-Treatment)
+- [Video: Lab Walkthrough](#video-lab-2---adding-menu-and-queue-treatment)
 - [Detailed Steps](#detailed-steps)
 
 # Overview
