@@ -1,9 +1,10 @@
 ---
-title: "Lab 3: Configuring Outdial"
+title: "BONUS Lab 6: Configuring Outdial"
 ---
 <p align="center">
   <img src="https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg">
 </p>
+
 In this Lab, we will go through the tasks that are required to setup an outdial call from the agent desktop in Webex Contact Center.
 
 # Table of Contents
@@ -20,10 +21,11 @@ In this Lab, we will go through the tasks that are required to setup an outdial 
 ### Lab Objective
 
 - This lab is designed to complete configuring the outdial capability on the Agent Desktop.
+- At the end of the lab, your agent will be able to make an outbound call from the Agent Desktop.
 
 ### Pre-requisites
 
-- You have an assigned POD and attendee ID.
+- You have an assigned POD and Attendee ID (Refer to your Lab Details).
 - You have the customer admin login credentials.
 - You have the calling DNIS.
 - You have the agent’s extension number.

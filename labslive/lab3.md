@@ -19,12 +19,12 @@ In this Lab, we will go through the tasks that are required to setup the HTTP Re
 
 ### Lab Objective
 
-- This lab is designed to help you understand Flow Designer and the HTTP Requests within Flow. 
+- This lab is designed to help you understand Flow Designer and the HTTP Requests within Flow.
 - This lab will get you familiar with reading JSON as a data interchange format within Flow Designer to send information to the Agent desktop.
 
 ### Pre-requisites
 
-- You have an assigned POD and attendee ID.
+- You have an assigned POD and Attendee ID (Refer to your Lab Details).
 - You have the customer admin login credentials.
 - You have the calling DNIS.
 - You have the agent’s extension number.

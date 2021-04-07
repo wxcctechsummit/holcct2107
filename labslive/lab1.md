@@ -27,10 +27,10 @@ In this Lab, we will go through the tasks that are required to setup a **Simple 
 
 ### Pre-requisites
 
-- You have an assigned POD and attendee ID.
-- You have the customer Admin's login credentials.
-- You have the Called DNIS (Number used on the Contact Center Entry Point).
-- You have the Admin's Extension number for the agent (3001).
+- You have an assigned POD and Attendee ID (Refer to your Lab Details).
+- You have the customer admin login credentials.
+- You have the calling DNIS.
+- You have the agent’s extension number.
 - Prompt Wav files are uploaded, TEAM, SITE and USER are created. 
 
 ### Quick Links

@@ -1,5 +1,5 @@
 ---
-title: "Important: Lab Pre-requisites"
+title: "LAB 0 - IMPORTANT: Lab Pre-requisites"
 ---
 <p align="center">
   <img src="https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg">

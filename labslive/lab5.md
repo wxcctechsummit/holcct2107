@@ -1,11 +1,11 @@
 ---
-title: "Lab 5: Intelligent IVR using CCAI"
+title: "BONUS Lab 5: Intelligent IVR using CCAI"
 ---
 <p align="center">
   <img src="https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg">
 </p>
 
-In this Lab, we will go through the tasks that are required to setup **Contact Center AI with the Voice Bot and Text to Speech capabilities**.
+In this Lab, we will go through the tasks that are required to setup **Contact Center AI with the Voice Bot and Text-to-Speech (TTS) capabilities**.
 
 # Table of Contents
 
@@ -20,12 +20,12 @@ In this Lab, we will go through the tasks that are required to setup **Contact C
 
 ### Lab Objective
 
-- This lab is designed to help you to be familiar with the control hub and admin portal UI. 
-- The lab contains multiple exercises on Control Hub and Admin Portal to make you comfortable with the Webex Contact Center application.
+- This lab is designed to help you configure a Google DialogFlow Agent using CCAI (Contact Center AI) on Webex Contact Center and utilize TTS (Text-to-speech) capabilities.
+- At the end of this lab, you should have a fully functioning bot front-ending the Webex Contact Center and text to speech prompts.
 
 ### Pre-requisites
 
-- You have an assigned POD and attendee ID.
+- You have an assigned POD and Attendee ID (Refer to your Lab Details).
 - You have the customer admin login credentials.
 - You have the calling DNIS.
 - You have the agent’s extension number.

@@ -19,12 +19,12 @@ In this Lab, we will go through the tasks that are required to setup Skills Base
 
 ### Lab Objective
 
-- This lab is designed to help you to configure Skils Based Routign on Webex Contact Center. 
+- This lab is designed to help you to configure Skils Based Routing on Webex Contact Center. 
 - At the end of the lab, you will be able to routing calls using Skill based routing by assigning agent skill requirements for the call.
 
 ### Pre-requisites
 
-- You have an assigned POD and attendee ID.
+- You have an assigned POD and Attendee ID (Refer to your Lab Details).
 - You have the customer admin login credentials.
 - You have the calling DNIS.
 - You have the agent’s extension number.

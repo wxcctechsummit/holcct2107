@@ -20,12 +20,12 @@ In this Lab, we will go through the tasks that are required to add additional fu
 
 ### Lab Objective
 
-- This lab is designed to help you to be familiar with the control hub and admin portal UI. 
-- The lab contains multiple exercises on Control Hub and Admin Portal to make you comfortable with the Webex Contact Center application.
+- This lab is designed to help you configure a Menu step in the call flow along with Queue Treatment. We will also configure counters and Opt-outs within the queue, along with Callbacks.
+- At the end of this lab, you should be able to hear the Menu prompt, and Opt-out of queue settings in the flow, and send a courtesy callback call to the customer by picking a ready agent.
 
 ### Pre-requisites
 
-- You have an assigned POD and attendee ID.
+- You have an assigned POD and Attendee ID (Refer to your Lab Details).
 - You have the customer admin login credentials.
 - You have the calling DNIS.
 - You have the agent’s extension number.
