@@ -79,31 +79,51 @@ Your `<POD>` is your `POD ID` allocated.
 ### 1. Copy out the flow and configure the advanced flow
 
 - Open the Portal > Routing Strategy > Flow page.
-- Copy the existing flow flow_wxcclab and edit the copied flow - name it advanced_flow1_wxcclab
+- Copy the existing flow flow_Lab1_Task2 and edit the copied flow - name it `Flow_Lab2_<ID>`
 - Edit the flow to go into flow designer.
 - Ensure that you configure the Menu steps with a 3 option - 2 queue, 1 Blind Transfer step.
 - Ensure you configure all the fields in the menu step including the prompts and the entry timeout (requires you to explore all options on the step).
-- Ensure you configure all the blind transfer location to Cisco Toll Free : +18005536387 –Note: This will actually connect you to the live toll free number!
+- Ensure you configure all the blind transfer location to Cisco Toll Free : `+18005536387`
 
-### 2. Configure the Queue Treatment loop and Opt Out and Callback steps
+> **Note: This will actually connect you to the live toll free number!**
+
+### 2. Configure Dummy Queue to Exercise Opt-Out Options
+
+- Open the Portal > Provisioning > Queue.
+
+|Configuration field|	Value|
+|------|------|
+|Name	|Queue_Dummy_`<ID> `|
+|Channel Type	Telephony
+| *----Contact Routing Settings---*	 |
+|Queue Routing Type|	Longest Available Agent|
+|Call Distribution|	`<Add team>`|
+|Service Level Threshold |	20|
+|Maximum Time in Queue	|7200|
+|Time Zone	|Default|
+---
+
+
+### 3. Configure the Queue Treatment loop and Opt Out and Callback steps
 
 - In Flow Designer - Configure the Queue treatment for the first queue. Use the queueCounter variable and configure the Opt out steps including the high volume message and the callback step.
 - Configure the voicemail destination to the same external number above.
-- Validate the flow and publish it.
+Validate the flow and publish it.
 
-### 3. Point to the New flow in the Routing Strategy
+### 4. Plug In New Flow into Routing Strategy
 
-- Go to the routing Strategy page > Routing Strategy > EP_voice_wxcclab
-- Once the flow is published, configure the Entry Point Routing strategy to point to the new flow advanced_flow1_wxcclab.
+- Go to the routing Strategy page > Routing Strategy > `EntryPoint_CiscoLive_<ID>`
+- Once the flow is published, configure the Entry Point Routing strategy to point to the new flow `Flow_Lab2_<ID>`
 
-### 4. Test the end to end flow
+### 5. Test the end to end flow
 
 - Login to the agent desktop and go Idle (Not Ready)
 - Test Queue treatment by going not ready on the agent desktop.
 - Call the main number on the entry point and go into the queue. You should hear the queue twice and then have an option to leave a callback.
 - leave the callback and the call should end.
 
-### 5. Execute the Callback
+### 6. Execute the Callback
+
 - Have the agent go ready after you left a callback.
 - They should receive the callback call.
 

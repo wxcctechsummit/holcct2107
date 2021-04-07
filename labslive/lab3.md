@@ -55,6 +55,11 @@ In this Lab, we will go through the tasks that are required to **Setup the HTTP 
 
 > **VIDEO TIMESTAMPS**
 
+> 00:00 - 00:04 — Overview
+
+> 04:00 - 18:00 — Step by Step Flow Building and Advanced HTTP Request
+
+> 18:00 — 21:40 - Troubleshooting & Test the flow 
 
 ---
 
@@ -66,11 +71,14 @@ In this Lab, we will go through the tasks that are required to **Setup the HTTP 
 Your `<POD>` is your `POD ID` allocated.
 ## Steps
 
-### 1. Copy out the flow and configure the advanced flow 2
+### 1. Copy out the flow and configure the advanced flow
 
-- Open the Portal > Routing Strategy > Flow page.
-- Copy the existing flow advanced_flow1_wxcclab and edit the copied flow - name it advanced_flow2_wxcclab
-- Edit the flow to go into flow designer.
+Open the Portal > Routing Strategy > Flow page.
+Copy the existing flow flow_Lab1_Task2 and edit the copied flow - name it flow_Lab2_<ID>
+Edit the flow to go into flow designer.
+Ensure that you configure the Menu steps with a 3 option - 2 queue, 1 Blind Transfer step.
+Ensure you configure all the fields in the menu step including the prompts and the entry timeout (requires you to explore all options on the step).
+Ensure you configure all the blind transfer location to Cisco Toll Free : +18005536387 –Note: This will actually connect you to the live toll free number!
 
 ### 2. Enhance the existing flow with an authentication piece
 

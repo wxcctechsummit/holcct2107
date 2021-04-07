@@ -137,6 +137,16 @@ Note: The DialogFlow agent’s credentials are created on the DialogFlow API of 
 
 > **VIDEO TIMESTAMPS**
 
+> 00:00 — 1:04 — Overview
+
+> 1:04 — 2:45 — Team and Queue Creation
+
+> 2:46 — 8:04 — Flow Demonstration/ Overview
+
+> 8:05 — 20:34 — step by step procedure to develop the flow
+
+> 20:35 — End — Troubleshoot & Test the flow 
+
 ---
 ## Congratulations! You're All done with the Bonus Lab! 
 ## You are now ready to start the next Bonus Lab!

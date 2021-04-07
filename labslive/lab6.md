@@ -54,6 +54,16 @@ In this Lab, we will go through the tasks that are required to setup an outdial 
 
 > **VIDEO TIMESTAMPS**
 
+> 00:00 — 1:04 — Overview
+
+> 1:04 — 2:45 — Team and Queue Creation
+
+> 2:46 — 8:04 — Flow Demonstration/ Overview
+
+> 8:05 — 20:34 — step by step procedure to develop the flow
+
+> 20:35 — End — Troubleshoot & Test the flow 
+
 
 ---
 
