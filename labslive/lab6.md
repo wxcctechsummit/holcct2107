@@ -57,17 +57,17 @@ In this Lab, we will go through the tasks that are required to setup an outdial 
 
 > **VIDEO TIMESTAMPS**
 
-> 00:00 — 1:04 — Overview
+> 00:00 — 0:21 — Overview
 
-> 1:04 — 2:45 — Team and Queue Creation
+> 0:21 — 1:15 — Create Outdial Entry Point
 
-> 2:46 — 8:04 — Flow Demonstration/ Overview
+> 1:15 — 2:20 — Create Outdial EP Routing Strategy
 
-> 8:05 — 20:34 — step by step procedure to develop the flow
+> 2:20 — 20:34 — Create Outdial ANI and OPTIONAL address books
 
-> 20:35 — End — Troubleshoot & Test the flow 
+> 3:45 — 4:40 — Setup Agent Profile
 
-
+> 4:40 — End — Test Outdial
 ---
 
 | **User Role** | **Contents**      | **Extension-DN Allotted**                   |
