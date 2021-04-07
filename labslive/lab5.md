@@ -51,7 +51,7 @@ In this Lab, we will go through the tasks that are required to setup **Contact C
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/j78p-gxeTaE?rel=0" title="WxCC Lab 5 : CCAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-> 00:00 - 7:49 - CAI  Connector configuration 
+> 00:00 - 7:49 - Bot Configuration - CCAI Connector configuration
 
 > 7:50 - end - Using Google TTS in Flow building, Troubleshoot & Test the flow 
 
