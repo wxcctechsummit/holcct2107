@@ -13,7 +13,7 @@ In this Lab, we will go through the tasks that are required to **Setup the HTTP 
   * [Lab Objective](#lab-objective)
   * [Pre-Requisites](#pre-requisites)
   * [Quick Links](#quick-links)
-- [Video: Lab Walkthrough](#video-setting-up-a-simple-flow)
+- [Video: Lab Walkthrough](#Video-Lab-3---Advanced-HTTP-Request-and-Expressions)
 - [Detailed Steps](#detailed-steps)
 
 # Overview

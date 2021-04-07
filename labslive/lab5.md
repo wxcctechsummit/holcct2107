@@ -13,7 +13,7 @@ In this Lab, we will go through the tasks that are required to setup **Contact C
   * [Lab Objective](#lab-objective)
   * [Pre-Requisites](#pre-requisites)
   * [Quick Links](#quick-links)
-- [Video: Lab Walkthrough](#video-setting-up-a-simple-flow)
+- [Video: Lab Walkthrough](#Video-BONUS-Lab-5---Intelligent-IVR-and-CCAI)
 - [Detailed Steps](#detailed-steps)
 
 # Overview
