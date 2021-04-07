@@ -82,27 +82,27 @@ Your `<POD>` is your `POD ID` allocated.
 ### 1.Create Skill Definition
 
 - Open portal > Provisioning > Skill  > Skill Definition
-- Click (New Skill Creation) –>Give Name(Agent_Profiency)and Description(Agent_Profiency) Type Proficiency
-- Click (New Skill Creation) –>Give Name(Premium_Agent)and Description(Premium_Agent) Type ’Text’
+- Click (New Skill Creation)  > Give Name(Agent_Profiency)and Description(Agent_Profiency) Type Proficiency
+- Click (New Skill Creation)  > Give Name(Premium_Agent)and Description(Premium_Agent) Type ’Text’
 
 ### 2.Crete Skill Profile
 
-- Open portal–>Provisioning–>Skill–>skill Profile
-- Click (New Skill Profile) –>Give Name (Cisco_Live_SP1) and Description(Cisco_Live_SP1) Select only Agent_Proficiency enter Skill Value to 5
-- Click (New Skill Profile) –>Give Name (Cisco_Live_SP2) and Description(Cisco_Live_SP2) Select Agent_Proficiency enter Skill Value to 5 and Premium_Agent and enter Skill Value to Yes
+- Open portal > Provisioning > Skill > skill Profile
+- Click (New Skill Profile)  > Give Name (Cisco_Live_SP1) and Description(Cisco_Live_SP1) Select only Agent_Proficiency enter Skill Value to 5
+- Click (New Skill Profile)  > Give Name (Cisco_Live_SP2) and Description(Cisco_Live_SP2) Select Agent_Proficiency enter Skill Value to 5 and Premium_Agent and enter Skill Value to Yes
 
 ### 3. Add skill profile to User/ Agent
 
-- Open portal–>Users
-- Edit user –>under Skill Profile select the skill profile created in step 2 ((Cisco_Live_SP2))
+- Open portal > Users
+- Edit user  > under Skill Profile select the skill profile created in step 2 ((Cisco_Live_SP2))
 
 ### 4.Create new Queue with Skill based routing and Add team
 
-- Open portal–>Provisioning–>Entry point/Queue –>Queue
-- Create new Queue –> Give Name and Description
-- Channel Type –>Telephony
-- Queue Routing Type –>Skill Based –>Best Available Agent
-Add Team –>Team[Team_CiscoLive]
+- Open portal > Provisioning > Entry point/Queue  > Queue
+- Create new Queue  >  Give Name and Description
+- Channel Type  > Telephony
+- Queue Routing Type  > Skill Based  > Best Available Agent
+Add Team  > Team[Team_CiscoLive]
 
 Configuration field	Value
 Name	Queue_SBR
@@ -120,7 +120,7 @@ Time Zone	Default
 ### 5. Change the previous flow with Skill based routing queue
 
 - Open the Flow created before and click on Queue Contact node (Team1) and change the queue from Queue_Dummy to Queue_SBR
-- Skill Requirement Details –>Select Skill and condition
+- Skill Requirement Details  > Select Skill and condition
 Under value –
 Skill Requirements
 
