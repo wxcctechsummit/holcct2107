@@ -189,7 +189,7 @@ Your `<POD>` is your `POD ID` allocated.
 ## [Lab 2: Add Menu and Queue treatment to the call](lab2.md){:target="_blank"}
 
 ---
-> #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](index.md)**
+> #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](/../index.md)**
 
 ---
 

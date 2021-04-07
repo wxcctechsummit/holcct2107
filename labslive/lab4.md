@@ -186,7 +186,7 @@ to parse the domain name of email
 ## [BONUS - Lab 5: Intelligent IVR using Contact Center AI](lab5.md){:target="_blank"}
 
 
-> #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](index.md)**
+> #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](/../index.md)**
 ---
 
 ## Index: Quick Links

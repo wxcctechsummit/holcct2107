@@ -112,7 +112,7 @@ Your `<POD>` is your `POD ID` allocated.
 ## Congratulations! You're All done with the Bonus Lab! 
 
 ---
-> #### Note: If you would like to go back **[HOME, CLICK HERE](index.md)**
+> #### Note: If you would like to go back **[HOME, CLICK HERE](/../index.md)**
 
 ---
 
