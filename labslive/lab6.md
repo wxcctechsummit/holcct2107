@@ -108,3 +108,16 @@ Your `<POD>` is your `POD ID` allocated.
 
 * [BONUS - Lab 5 : Setup Intelligent IVR using CCAI](lab5.md){:target="_blank"}
 * [BONUS - Lab 6 : Configure Out-dial](lab6.md)
+
+
+<script>
+function mainPage() {window.location.href = "https://wxcctechsummit.github.io/holcct2107/";}
+</script>
+
+<div id="button-row">
+	<button onclick="mainPage()" style="
+  border-radius: 5px;
+  background-color: #add8e6;
+  padding: 10px;">Go Home</button>
+  
+</div>
