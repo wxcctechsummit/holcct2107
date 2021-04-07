@@ -85,6 +85,88 @@ In this Lab, we will go through the tasks that are required to setup **Contact C
 **NOTE:**
 Your `<POD>` is your `POD ID` allocated.
 
+## Steps - TASK 1 : CCAI
+
+### 1. Setup the Google CCAI voice bot
+
+- Open the Control Hub Admin (admin.webex.com) > Contact Center Settings > Features > New Template > Virtual Bot > Use for Voice (You can enable it for Chat as well, if you’d like)
+- Click on the next prompt and select “Yes, I have a preconfigured Dialogflow agent.” - Note: We will use a preconfigured bot for this exercise. This bot has been tied to an already existing paid account on https://dialogflow.cloud.google.com/
+- Click on Next if it prompts you to download the Intents. We have already uploaded these for you.
+- When it asks for the Upload JSON key – upload the file provided: ciscolive-ccai.json
+- When it asks for a name – name the bot: CLUS_CCAI_Bot
+- Click on Next > Skip the avatar section > Click Finish. Note: The DialogFlow agent’s credentials are created on the DialogFlow API of the project on Gooogle Cloud Console. We need the DialogFlow API as well as the TTS API enabled on the account, along with the DialogFlow API Admin role. This has already been done for you and which is why just uploading the key provided is sufficient.
+
+### 2. Wire up the DialogFlow Agent inside of the Flow.
+
+- In Flow Designer – Remove the menu block and the welcome message block. - We will use the CCAI Bot to front end the conversation, and then perform the lookup and send it to the queue.
+- Put in the Virtual Agent block.
+- For the Virtual Agent selection, select the CLUS_CCAI_Bot
+- Make Prompts Interruptible for the bot.
+- Under the Advanced settings, ensure that “Enable Conversation Transcript” is checked. This will help the agent get a copy of the conversation with the customer.
+- Scroll down and configure the bot settings as detailed below
+
+### 3. Configure the Settings for the Bot and the output connections
+
+- The Bot has 2 connections – Handled and Escalated.
+- Handled is meant to gracefully disconnect the call and end Self Service. - Connect the handled branch to a play message block with “Thank you for calling” using a TTS Play Message block.
+- Escalated is meant to send the call to the queue. Send the caller to a Queued block by connecting the escalated Intent to the queued block.
+
+### 4. Store the bot variables as CAD variables for the screen pop
+
+- The bot block (VirtualAgent1) has 2 variables : LastIntent and TranscriptURL
+- We will store these in CAD variables and pop them on the agent desktop.
+- Create 2 CAD variables called lastIntent and transcriptURL
+- Use the set variables as shown in the example above to set these as CAD variables.
+- This will ensure that when the call hits the agent, the agent is able to view these statistics. It is also helpful during debugging.
+
+### 5. Test the end to end flow
+
+- Login to the agent desktop and go Idle (Not Ready)
+- Call the main number on the entry point.
+- You should hear the bot asks you what you want to do. (e.g “How may I help you”)
+
+### 6. Experiment with what the configured Bot can do
+
+> **Note:** This simple bot has been programmed on DialogFlow to give you information about the Cisco Live Session Schedule as well as escalate the call to an agent).
+
+- Use any of the trigger intents to get information about the lab: “Cisco - - Live” “Tell me about your lab” “What labs are supported”
+- Use any of the trigger intents to get to an agent: “I need Help” “I need an Agent” “Where is my proctor” “Help” “Assistance”, etc – these are the words that have utterances trained to trigger the escalation intent of the bot.
+### 7. Have the Agent handle the call
+- Have the agent go ready after you said “I need an agent”.
+- The Agent should get the call, and be able to view the transcript on the agent desktop.
+
+
+## STEPS Task 2 - TTS - EWT - PIQ
+
+**Timestamps**
+
+> 08:00 - 09:20 - Verify TTS connector
+
+> 09:20 - 10:30 - Use a Set Variable Block to parse the email 
+
+> 13:10 - End - Estimated Wait Time and Position in Queue
+
+### 1. Setup the Google CCAI TTS 
+
+- Follow the Video above and ensure that the TTS Connector is already setup on your org.
+
+### 2. Wire up the TTS in the Webex Contact Center Flow Designer
+
+- Drag and Drop A Play message node, `Enable Test-to-Speech` and select the Connector , Select Language
+- Under play message copy paste this test 
+
+> “Thanks {{% raw %}} {{Customer_Name}} {{% endraw %}}, we got your information”
+
+### 3 PIQ and EWT 
+
+- Drag and drop Queueinfo node after “Team2 Queue Contact node”  play EWT and PIQ from success  link
+- Play PIQ alone from the “Insufficient Information ” link 
+- Connect Failure link to Play Music node 
+
+### 4. Test the Call Flow with the latest additions
+
+- Call the Dial number > Enter 5 digit pin > Heard personalized greeting
+- On the Main Menu press 2 > PIQ is played > Call gets connected to agent Immediately
 
 
 ## Video: BONUS Content - How the Bot is Configured on CCAI (DialogFlow)
