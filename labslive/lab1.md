@@ -174,7 +174,7 @@ Your `<POD>` is your `POD ID` allocated.
 
 > **Note:** Make sure that you give access to the phone's microphone for the calling app.
 
-![WxCallingAndroid](../images/wxcallingandroid.png)
+![WxCallingAndroid](https://wxcctechsummit.github.io/holcct2100/images/wxcallingandroid.png)
 
 ### 8. Make a test call
 
