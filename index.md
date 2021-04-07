@@ -33,13 +33,13 @@ CCAI Connectors (TTS and CCAI) can be found [here](https://cisco.box.com/s/oakd7
 
 | Time | Session | Link |
 | ---- | ------- | ----------------- |
-| 3:30 PM CST | Lab Pre-Requisites |  [Pre-requisite Configuration](labslive/prereq.md) |
-| 4:00 PM CST | Making a Simple Test Call |  [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md) |
-| 4:30 PM CST | Menu and Queue Treatment | [Lab 2: Add Menu and Queue treatment to the call](labslive/lab2.md) |
-| 5:00 PM CST | Advanced HTTP Request | [Lab 3: Setup an advanced HTTP Request](labslive/lab3.md)|
-| 6:00 PM CST | Skills Based Routing | [Lab 4: Setup Skills Based Routing (SBR)](labslive/lab4.md) |
-| OPTIONAL | BONUS - Intellgent IVR using Contact Center AI |  [BONUS Lab 5: Setup Intelligent IVR using CCAI](labslive/lab5.md) |
-| OPTIONAL | BONUS - Configuring Outdial | [BONUS Lab 6: Configure Out-dial](labslive/lab6.md) |
+| 3:30 PM CST | Lab Pre-Requisites |  [Pre-requisite Configuration](labslive/prereq.md){:target="_blank"} |
+| 4:00 PM CST | Making a Simple Test Call |  [Lab 1: Setup a Simple Flow and make a test call](labslive/lab1.md){:target="_blank"} |
+| 4:30 PM CST | Menu and Queue Treatment | [Lab 2: Add Menu and Queue treatment to the call](labslive/lab2.md){:target="_blank"} |
+| 5:00 PM CST | Advanced HTTP Request | [Lab 3: Setup an advanced HTTP Request](labslive/lab3.md){:target="_blank"} |
+| 6:00 PM CST | Skills Based Routing | [Lab 4: Setup Skills Based Routing (SBR)](labslive/lab4.md){:target="_blank"} |
+| OPTIONAL | BONUS - Intellgent IVR using Contact Center AI |  [BONUS Lab 5: Setup Intelligent IVR using CCAI](labslive/lab5.md){:target="_blank"} |
+| OPTIONAL | BONUS - Configuring Outdial | [BONUS Lab 6: Configure Out-dial](labslive/lab6.md){:target="_blank"} |
 
 
 ---
