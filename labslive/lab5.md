@@ -136,7 +136,9 @@ Your `<POD>` is your `POD ID` allocated.
 - The Agent should get the call, and be able to view the transcript on the agent desktop.
 
 
-## STEPS Task 2 - TTS - EWT - PIQ
+## STEPS: Task 2 - TTS - EWT - PIQ
+
+<iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/j78p-gxeTaE?rel=0&t=480s" title="WxCC Lab 5 : CCAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Timestamps**
 
