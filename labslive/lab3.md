@@ -43,9 +43,11 @@ In this Lab, we will go through the tasks that are required to **Setup the HTTP 
 
 ## Video: Lab 3 - Advanced HTTP Request and Expressions
 
-> The following video outlines the process to create a simple flow. The video uses a generic example. You will use the naming convention of `EP_<ID>_wxcclab` where `<ID>` is your attendee ID provided. This is to keep a track of all the configuration created end to end.
+> The following video outlines the process to create a simple flow. 
 
-> The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
+> You will use the naming convention of `EntryPoint_CL_Lab_<ID>` where `<ID>` is your attendee ID provided. This is to keep a track of all the configuration created end to end.
+
+**E.g**: `If you are attendee 123 you would use EntryPoint_CL_Lab_123`
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/WVGACrbLxp0?rel=0" title="WxCC Lab 3: HTTP Request" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -142,7 +144,7 @@ name of customer with account number	$.[?(@.account == "70579265")].name
 
 ## Congratulations! You're done! 
 ## You are now ready to start the next Lab!
-## [Lab 4: Skills Based Routing](lab4.md)
+## [Lab 4: Skills Based Routing](lab4.md){:target="_blank"}
 
 
 > #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](index.md)**

@@ -46,6 +46,7 @@ In this Lab, we will go through the tasks that are required to setup a **Simple 
 
 
 > The following video outlines the process to create a simple flow. The video uses a generic example. 
+
 > You will use the naming convention of `EntryPoint_CL_Lab_<ID>` where `<ID>` is your attendee ID provided. This is to keep a track of all the configuration created end to end.
 
 **E.g**: `If you are attendee 123 you would use EntryPoint_CL_Lab_123`
@@ -127,7 +128,7 @@ Your `<POD>` is your `POD ID` allocated.
 |Maximum Time in Queue |7200|
 |Time Zone |Default|
 
-*`<ID>` is your attendee ID provided.
+* `<ID>` is your attendee ID provided.
 
 ---
 
@@ -146,6 +147,9 @@ Your `<POD>` is your `POD ID` allocated.
 - Configure the Queue Block to `Queue_LAA_<ID>`. Map the queue inside of the q ueue block.
 - Configure the play music to loop, and start 0, end 10 to play 10 seconds of music.
 - Verify and publish the flow.
+
+* Note: `<ID>` is your attendee ID provided.
+
 ### 6. Configure the Entry Point Routing Strategy
 
 - Configure the Open 24x7 routing strategy time of day on the Entry Point Routing strategy by selecting it on the Routing Strategies >`EntryPoint_CL_Lab_<ID>`.
@@ -161,7 +165,7 @@ Your `<POD>` is your `POD ID` allocated.
 ---
 ## Congratulations! You're done! 
 ## You are now ready to start the next Lab!
-## [Lab 2: Add Menu and Queue treatment to the call](lab2.md)
+## [Lab 2: Add Menu and Queue treatment to the call](lab2.md){:target="_blank"}
 
 ---
 > #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](index.md)**

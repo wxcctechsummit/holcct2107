@@ -9,12 +9,12 @@ title: "LAB 0 - IMPORTANT: Lab Pre-requisites"
 
 In this section, we will go through the tasks that are required to complete the general pre-configuration of a tenant. These tasks are to be undertaken by a customer administrator. By following each of the steps, you would have prepped your tenant to begin configuring different services offered by the platform. At the end of the lab, you should be able to login an agent with the configured user extension.
 
-
 The following video outlines the pre-requisites. These need to be complete before beginning the rest of the lab.
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/PYI9ug4PH0o?rel=0" title="WxCC Pre-reqs: Pre-requisites" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
+
 > Here are the **video timestamps if you would like to skip to the section directly**
 
 > 0:20 - Check User License

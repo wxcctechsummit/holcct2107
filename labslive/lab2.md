@@ -44,7 +44,10 @@ In this Lab, we will go through the tasks that are required to add additional fu
 ## Video: Lab 2 - Adding Menu and Queue Treatment
 
 > The following video outlines the process of adding a Menu and Queue Treatment to the flow.
-> For configurations, use the naming convention `EP_<ID>_wxcclab` where `<ID>` is your attendee ID provided. This can help you keep a track of all the configuration created end to end.
+
+> You will use the naming convention of `EntryPoint_CL_Lab_<ID>` where `<ID>` is your attendee ID provided. This is to keep a track of all the configuration created end to end.
+
+**E.g**: `If you are attendee 123 you would use EntryPoint_CL_Lab_123`
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/WnaVkrzcbWs?rel=0" title="WxCC Lab 2: Menu and Queue Treatment" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -96,7 +99,7 @@ Your `<POD>` is your `POD ID` allocated.
 
 ## Congratulations! You're done! 
 ## You are now ready to start the next Lab!
-## [Lab 3: Add Advanced HTTP Request Capabilities](lab3.md)
+## [Lab 3: Add Advanced HTTP Request Capabilities](lab3.md){:target="_blank"}
 
 ---
 > #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](index.md)**

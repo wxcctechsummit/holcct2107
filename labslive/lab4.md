@@ -41,9 +41,11 @@ In this Lab, we will go through the tasks that are required to setup Skills Base
 
 ## Video: Lab 4 - Skills Based Routing
 
-> The following video outlines the process to create a simple flow. The video uses a generic example. You will use the naming convention of `EP_<ID>_wxcclab` where `<ID>` is your attendee ID provided. This is to keep a track of all the configuration created end to end.
+> The following video outlines the process to create a simple flow. The video uses a generic example. 
 
-> The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
+> You will use the naming convention of `EntryPoint_CL_Lab_<ID>` where `<ID>` is your attendee ID provided. This is to keep a track of all the configuration created end to end.
+
+**E.g**: `If you are attendee 123 you would use EntryPoint_CL_Lab_123`
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/6YoNyFGpAUQ?rel=0" title="WxCC Lab 4 : Skills Based Routing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -101,7 +103,7 @@ Your `<POD>` is your `POD ID` allocated.
 
 ## Congratulations! You're done! 
 ## You are done with all the mandatory sections! Explore the bonus lab below!
-## [BONUS -> Lab 5: Intelligent IVR using Contact Center AI](lab5.md)
+## [BONUS -> Lab 5: Intelligent IVR using Contact Center AI](lab5.md){:target="_blank"}
 
 
 > #### Note: If you would like to go back to the **[HOME PAGE, CLICK HERE](index.md)**

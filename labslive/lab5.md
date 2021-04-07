@@ -42,9 +42,11 @@ In this Lab, we will go through the tasks that are required to setup **Contact C
 
 ## Video: BONUS Lab 5 - Intelligent IVR and CCAI
 
-> The following video outlines the process to create a simple flow. The video uses a generic example. You will use the naming convention of `EP_<ID>_wxcclab` where `<ID>` is your attendee ID provided. This is to keep a track of all the configuration created end to end.
+> The following video outlines the process to create a simple flow. The video uses a generic example. 
 
-> The video serves as a reference. The steps are detailed below the video if you would like a snapshot of what configuration is required.
+> You will use the naming convention of `EntryPoint_CL_Lab_<ID>` where `<ID>` is your attendee ID provided. This is to keep a track of all the configuration created end to end.
+
+**E.g**: `If you are attendee 123 you would use EntryPoint_CL_Lab_123`
 
 <iframe width="1024" height="576" src="https://www.youtube-nocookie.com/embed/j78p-gxeTaE?rel=0" title="WxCC Lab 5 : CCAI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -134,7 +136,7 @@ Note: The DialogFlow agent’s credentials are created on the DialogFlow API of 
 ---
 ## Congratulations! You're All done with the Bonus Lab! 
 ## You are now ready to start the next Bonus Lab!
-## [Lab 6: BONUS - Configure Outdial](lab6.md)
+## [Lab 6: BONUS - Configure Outdial](lab6.md){:target="_blank"}
 
 ## We hope you enjoyed the lab!
 
