@@ -65,7 +65,7 @@ In this Lab, we will go through the tasks that are required to **Setup the HTTP 
 
 ---
 
-| **User Role** | **Contents**      | **Extension-DN Allotted**                   |
+| **User Role** | **Contents**      | **Extension-DN Allotted** |
 | ----------- | ----------------- | -------------------------------- |
 | Admin        | admin1pod`<POD>`@email.carehybrid.com   | 3001 |
 
