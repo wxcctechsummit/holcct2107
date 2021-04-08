@@ -84,6 +84,14 @@ Your `<POD>` is your `POD ID` allocated.
 - Drag a play message block, Collect Digits, HTTP Request, Condition Block, 2 more Play message blocks and put them in front of the menu step.
 - Ensure the prompts are plugged in to the play message prompts. `welcome`, `enter_pin`, and after the HTTP and Condition, a corresponding success and failure prompt.
 
+
+> **Important TIP on the MENU Block**
+
+> `Make all Menu Steps Interruptible by default` - This gives callers an option to bypass the prompt. It is a small checkbox on the Menu Step.
+
+> `In the Menu Block > Advanced Settings > Entry Timeout = Make it 10 Seconds` - This gives callers enough time to complete the DTMF (digit) entry.
+
+
 ### 3. Configure the Collect Digits block
 
 - Configure the Collect Digits Block to a 5 digits max/min and ensure the timeouts are properly setup.
