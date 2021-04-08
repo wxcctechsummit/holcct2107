@@ -127,7 +127,7 @@ customerPhone = $.[0].phone
 
 |Query For 	|Parse statement|
 |---|---|
-|All Customers|`$.[0]`|
+|All Customers|`$.*`|
 |First Customer|	`$.[0]`	|
 |Last Customer|	`$.[-1:]`	|
 |First two customers|	`$.[0:2]`	|
