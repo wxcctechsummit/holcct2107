@@ -77,10 +77,18 @@ Your `<POD>` is your `POD ID` allocated.
 
 ### 4. Launch Portal to ensure the admin user admin1pod__@__ is Contact center configured for testing.
 
-- A Site has been created for the Admin: `Cisco_Live`, `Team_CiscoLive`
+- A Site has already been created for the Admin: `Cisco_Live`, `Team_CiscoLive`
 - Ensure the Admin is Contact Center Enabled.
 - Associate the User to the Site, Team, default Multimedia Profile - `Default_Telephony_Profile`.
 - Verify by Launching the Agent Desktop and logging in.
+
+> **Note:** Please Check the `Site` that the user admin1pod__@email.carehybrid.com is assigned to. And create the `Team_CiscoLive` under the right Site.
+
+- If you would like to Create a Team, create the Team under that Site - and assign the Team to the Agent.
+- `Agent` > `Site` relationship cannot be changed. So all teams will need to be created under the same site.
+- With the steps outlined in the previous lab and recap above, you should now be able to login to the agent desktop.
+
+> Only teams that are in the same site of the Agent will be visible to assign to the agent.
 
 Desktop URL: **https://desktop.wxcc-us1.cisco.com/**
 
