@@ -101,7 +101,13 @@ Your `<POD>` is your `POD ID` allocated.
 
 ### 1. Verify that your users are ready to login
 
+> **Note:** Please Check the `Site` that the user admin1pod__@email.carehybrid.com is assigned to. And create the `Team_CiscoLive` under the right Site.
+
+- If you would like to Create a Team, create the Team under that Site - and assign the Team to the Agent.
+- `Agent` > `Site` relationship cannot be changed. So all teams will need to be created under the same site.
 - With the steps outlined in the previous lab and recap above, you should now be able to login to the agent desktop.
+
+> Only teams that are in the same site of the Agent will be visible to assign to the agent.
 
 ### 2. Verify your inbound numbers are correctly setup on Calling
 
