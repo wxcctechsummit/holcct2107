@@ -60,15 +60,15 @@ In this Lab, we will go through the tasks that are required to setup a **Simple 
 
 > **Task 1 - Timestamps**
 
-> 00.00 - 1.24 — Overview
+> 00:00 - 1:24 — Overview
 
-> 1.24 - 2.50 — Upload Wav Files
+> 1:24 - 2:50 — Upload Wav Files
 
-> 2.50 - 5 27 — Flow Creation
+> 2:50 - 5:27 — Flow Creation
 
-> 5.28 - 6.52 — Entry Point Creation
+> 5:28 - 6:52 — Entry Point Creation
 
-> 6.52 - 11:42 —Routing Strategy Creation
+> 6:52 - 11:42 —Routing Strategy Creation
 
 > 11:43 - 13:08 — DN — EP Mapping
 
@@ -78,11 +78,11 @@ In this Lab, we will go through the tasks that are required to setup a **Simple 
 
 > 13:58 - 14:14 — Overview
 
-> 14:15 - 1511 — Site Creation
+> 14:15 - 15:11 — Site Creation
 
 > 15:12 - 16:54 — Team Creation
 
-> 16:55 -18:34 —- Queue Creation
+> 16:55 - 18:34 —- Queue Creation
 
 > 18:35 - 21:33 — Flow Creation
 
