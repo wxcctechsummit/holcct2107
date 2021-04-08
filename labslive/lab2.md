@@ -88,8 +88,15 @@ Your `<POD>` is your `POD ID` allocated.
 - Ensure that you configure the Menu steps with a 3 option - 2 queue, 1 Blind Transfer step.
 - Ensure you configure all the fields in the menu step including the prompts and the entry timeout (requires you to explore all options on the step).
 - Ensure you configure all the blind transfer location to Cisco Toll Free : `+18005536387`
+**Note: This will actually connect you to the live toll free number!**
 
-> **Note: This will actually connect you to the live toll free number!**
+
+> **Important TIP on the MENU Block**
+
+> `Make all Menu Steps Interruptible by default` - This gives callers an option to bypass the prompt. It is a small checkbox on the Menu Step.
+
+> `In the Menu Block > Advanced Settings > Entry Timeout = Make it 10 Seconds` - This gives callers enough time to complete the DTMF (digit) entry.
+
 
 ### 2. Configure Dummy Queue to Exercise Opt-Out Options
 
