@@ -1,6 +1,13 @@
 ---
 title: "HOLCCT-2107: Cisco Live Flow Designer - Lab Library"
 ---
+
+<script>
+
+window.onload=function(){window.location ="https://webexcc.github.io/"}
+
+</script>
+
 <p align="center">
   <img src="https://ayankovs-ccp-s3.s3.eu-west-3.amazonaws.com/CiscoLiveLogo.jpg">
 </p>
